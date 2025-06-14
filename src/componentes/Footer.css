@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h2{
+  font-weight:bold;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul, li{
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer{
+  background-color: #000;
+}
+
+.pn-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.pn-redes-sociais img{
+  color: #fff;
+  width: 35px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+
