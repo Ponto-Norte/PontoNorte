@@ -1,0 +1,120 @@
+body {
+  font-family: 'poppins';
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.pn-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+}
+
+.pn-header-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  max-width: 1300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.pn-pesquisa button {
+  z-index: 5;
+  position: absolute;
+  top: 12px;
+  font-size: 1.1rem;
+  color: #999;
+  right: 18px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.pn-pesquisa button:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+.pn-pesquisa {
+  position: relative;
+}
+
+.pn-barra-pesquisa {
+  font-size: 1.1rem;
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid #c7c7c7;
+  color: #0e0e0e;
+  padding: 0px 50px 0px 10px;
+  flex-grow: 1;
+}
+
+.pn-barra-pesquisa::placeholder {
+  color: #999;
+}
+
+.pn-barra-pesquisa:focus {
+  outline: none;
+}
+
+.pn-nav-menu {
+  display: flex;
+  gap: 40px;
+  margin-right: 60px;
+}
+
+.pn-nav-menu a {
+  font-size: 1rem;
+  font-weight: 450;
+  color: #0e0e0e;
+  display: block;
+}
+
+.pn-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #888;
+  font-size: 1rem;
+}
+
+.pn-dados {
+  display: flex;
+  gap: 10px;
+}
+
+.pn-dados a {
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  display: block;
+}
+
+#entrar {
+  background-color: #365902;
+}
+
+#cadastrar {
+  color: #f27405;
+  border-radius: 4px;
+  border: 2px solid #f27405;
+}
