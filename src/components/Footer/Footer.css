@@ -1,46 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+p {
+  margin: 0px;
+}
 
-h2{
-  font-weight:bold;
+footer {
+  background-color: black;
+  padding: 20px 0px 0px 0px;
+}
+
+h2 {
+  font-weight: bold;
   color: #fff;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
 
-ul, li{
+ul,
+li {
   list-style: none;
   padding: 5px 0;
 }
 
-footer{
-  background-color: #000;
-}
-
-.pn-container{
-  max-width: 1200px;
+.pn-container {
+  max-width: 1300px;
   margin: 0 auto;
   justify-content: space-between;
   display: flex;
   gap: 20px;
-  align-items: center;
-  padding: 80px 0;
+  padding: 60px;
+  border-bottom: 1px solid #a85002;
+  background-color: black;
 }
 
-.pn-redes-sociais img{
+.pn-redes-sociais img {
   color: #fff;
   width: 35px;
   margin-top: 20px;
   gap: 10px;
 }
 
+.pn-info-marca {
+  max-width: 100%;
+  display: block;
+  align-content: center;
+}
 
+.pn-footer-site {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.pn-footer-site p {
+  color: #f2f2f2;
+  padding: 20px 0px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pn-footer-coluna-quatro {
+  align-content: start;
+}

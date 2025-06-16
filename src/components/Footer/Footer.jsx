@@ -75,6 +75,7 @@ function FooterPontoNorte() {
           </ul>
         </div>
       </div>
+      <p>Ponto Norte 2025. Todos os direitos reservados.</p>
     </footer>
   );
 }

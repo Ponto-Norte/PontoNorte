@@ -20,20 +20,22 @@ function Header() {
         </div>
 
         <nav className="pn-nav">
-          <ul className="pn-nav-menu">
-            <li>
-              <a href="#">Trilhas</a>
-            </li>
-            <li>
-              <a href="#">Guias</a>
-            </li>
-            <li>
-              <a href="#">Parceiros</a>
-            </li>
-            <li>
-              <a href="#">Planos</a>
-            </li>
-          </ul>
+          <nav aria-label="navegação primaria">
+            <ul className="pn-nav-menu">
+              <li>
+                <a href="#">Trilhas</a>
+              </li>
+              <li>
+                <a href="#">Guias</a>
+              </li>
+              <li>
+                <a href="#">Parceiros</a>
+              </li>
+              <li>
+                <a href="#">Planos</a>
+              </li>
+            </ul>
+          </nav>
         </nav>
 
         <div className="pn-dados">
