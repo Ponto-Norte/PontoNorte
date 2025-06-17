@@ -1,4 +1,4 @@
-import './Header.css';
+import '../Header/Header.css';
 import pnLogo from '../../assets/pnLogo.svg';
 
 function Header() {
@@ -32,10 +32,10 @@ function Header() {
                 <a href="#">Guias</a>
               </li>
               <li>
-                <a href="#">Parceiros</a>
+                <a href="/Parceiro">Parceiros</a>
               </li>
               <li>
-                <a href="#">Planos</a>
+                <a href="/Planos">Planos</a>
               </li>
             </ul>
           </nav>
