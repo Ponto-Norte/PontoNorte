@@ -23,6 +23,9 @@ function Header() {
           <nav aria-label="navegação primaria">
             <ul className="pn-nav-menu">
               <li>
+                <a href="#">Inicio</a>
+              </li>
+              <li>
                 <a href="#">Trilhas</a>
               </li>
               <li>
@@ -40,7 +43,7 @@ function Header() {
 
         <div className="pn-dados">
           <a id="entrar" href="#">
-            Entar
+            Entrar
           </a>
           <a id="cadastrar" href="#">
             Cadastre-se

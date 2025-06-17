@@ -8,6 +8,8 @@ li {
   text-decoration: none;
 }
 a {
+  margin: 0px;
+  padding: 0px;
   text-decoration: none;
 }
 
@@ -78,7 +80,6 @@ a {
 .pn-nav-menu {
   display: flex;
   gap: 40px;
-  margin-right: 60px;
 }
 
 .pn-nav-menu a {
