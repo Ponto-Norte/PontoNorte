@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f0f0f0;
+  font-family: 'Poppins';
+}
+
+.pn-wallpaper-guias {
+  height: 400px;
+  background: url('../../assets/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.pn-wallpaper-guias h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: -130px;
+}
+
+.pn-buscar-guias{
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 1080px;
+  height: 325px;
+  border-radius: 60px;
+  justify-items: center;
+  align-content: center;
+  top: 50px;
+  z-index: 200;
+  margin-top: -150px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.pn-caixa-busca{
+  align-content: center;
+  position: relative;
+}
+
+.pn-caixa-busca button{
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  width: 205px;
+  height: 60px;
+  background-color: #f27405;
+  text-decoration: none;
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+
+
+.pn-caixa-busca button:active{
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.pn-caixa-busca input{
+  padding: 0px 230px 0px 20px;
+  border: none;
+  border-radius: 60px ;
+  outline: none;
+  width: 680px;
+  height: 60px;
+  background-color: #d6d6d6;
+  font-size: 24px;
+}
+
+.pn-conteudo-buscar-guias{
+  justify-items: center;
+}
+
+.pn-conteudo-buscar-guias h2{
+  font-size: 2.7rem;
+  color: #000;
+}
+
+.pn-conteudo-buscar-guias .pn-caixa-busca{
+  margin-top: 50px;
+}
+
+.pn-titulo-guias{
+  margin: 0 auto;
+  max-width: 1300px;
+  margin-top: 50px;
+}
+
+.pn-titulo-guias h2{
+  color: #000;
+  font-size: 30px;
+}
+
+.pn-cards-guias{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 60px;
+  padding: 50px;
+}
+
+.pn-card-um{
+  max-width: 100%;
+  width: 350px;
+  height: 620px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 60px;
+}
+
+.pn-card-um .pn-ul-card-foto-um{
+  padding: 0px;
+  margin: 0px;
+}
+
+.pn-card-um-foto{
+  background: url(../../assets/guias/guia1.jpg);
+  max-width: 100%;
+  width: 350px;
+  height: 300px;
+  background-repeat: none;
+  background-size: cover;
+  border-radius: 60px 60px 0px 0px;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.pn-card-um-conteudo{
+  background-color: #fff;
+  max-width: 100%;
+  width: 350px;
+  height: 320px;
+  border-radius: 0px 0px 60px 60px;
+  position: absolute;
+  padding: 0px;
+}
+
+.pn-cd-um-conteudo-membros{
+  padding: 30px 20px;
+  position: relative;
+}
+
+.pn-cd-um-conteudo-membros h2{
+  color: #000;
+  display: inline-block;
+  border-bottom: 4px solid #365902;
+}
+
+.pn-avaliacao-card-guia{
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pn-cd-um-conteudo-membros .pn-avaliacao-guia-um{
+  margin-top: -10px;
+}
+
+.pn-cd-um-conteudo-membros button{
+  justify-content: end;
+  position: absolute;
+  right: 40px;
+  border: none;
+  width: 140px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  background-color: #365902;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.pn-cd-um-conteudo-membros button:active{
+  box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}

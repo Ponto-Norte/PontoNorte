@@ -8,7 +8,7 @@ function Parceiros() {
     <>
       <Header />
       <section>
-        <div className="pn-wallpaper">
+        <div className="pn-wallpaper-guias">
           <h1>Conheça nossos Parceiros!</h1>
         </div>
 
