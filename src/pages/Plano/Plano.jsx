@@ -1,9 +1,16 @@
 import './Plano.css';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 function Plano() {
   return (
-    <>
+    <div id="planos">
+      <Header />
       <section id="plano">
+        <div className="pn-wallpaper-plano">
+          <h1>Descubra os planos Ponto Norte</h1>
+        </div>
+
         <div className="pn-container-planos">
           <div className="pn-conteudo-planos">
             <h2>EVEREST</h2>
@@ -145,7 +152,8 @@ function Plano() {
           </div>
         </div>
       </section>
-    </>
+      <Footer />
+    </div>
   );
 }
 

@@ -16,6 +16,22 @@ li {
   margin: none;
 }
 
+.pn-wallpaper-plano {
+  background: url(./../../assets/wallpaper.jpg);
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.pn-wallpaper-plano h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
 .pn-container-planos {
   max-width: 100vw;
   height: 500px;
@@ -275,4 +291,8 @@ section {
   background-size: cover;
   rotate: 180deg;
   top: 600px;
+}
+
+#plano {
+  margin-top: 0px;
 }

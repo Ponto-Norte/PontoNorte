@@ -2,7 +2,6 @@ import '../Parceiros/Parceiros.css';
 import lume from '../../assets/parceiros/LogoLume.png';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-
 function Parceiros() {
   return (
     <>
