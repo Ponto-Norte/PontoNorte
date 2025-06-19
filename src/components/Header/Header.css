@@ -78,8 +78,9 @@ a {
 }
 
 .pn-nav-menu {
+  margin-left: 0px;
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 
 .pn-nav-menu a {
@@ -104,9 +105,11 @@ a {
 }
 
 .pn-dados a {
+  font-size: 0.875rem;
   color: #fff;
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 4px;
+  align-content: center;
   display: block;
 }
 

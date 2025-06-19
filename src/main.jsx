@@ -1,10 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import Parceiros from './pages/Parceiros/Parceiros.jsx';
-import Guias from './pages/Guias/Guias.jsx'
+import Trilhas from './pages/Trilhas/Trilhas';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Guias />
+    <Trilhas />
   </StrictMode>,
 );
