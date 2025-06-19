@@ -21,7 +21,7 @@ a {
 .pn-header {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 15px 0;
+  padding: 8px 0;
 }
 
 .pn-header-container {
@@ -51,7 +51,11 @@ a {
 
 .pn-pesquisa button:hover {
   color: #000;
-  transition: 0.5s;
+  transition: 0.2s;
+}
+
+.pn-pesquisa button:active{
+  color: #ccc;
 }
 
 .pn-pesquisa {
@@ -63,9 +67,10 @@ a {
   width: 300px;
   height: 40px;
   border-radius: 50px;
-  border: 2px solid #c7c7c7;
+  border: 2px solid transparent;
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.3);
   color: #0e0e0e;
-  padding: 0px 50px 0px 10px;
+  padding: 0px 50px 0px 20px;
   flex-grow: 1;
 }
 
@@ -88,6 +93,22 @@ a {
   font-weight: 450;
   color: #0e0e0e;
   display: block;
+  position: relative;
+}
+
+.pn-nav-menu a::after{
+  content: "";
+  bottom: 0px;
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #365902;
+  transition: 0.3s ease-in-out;
+}
+
+.pn-nav-menu a:hover::after{
+  width: 100%;
 }
 
 .pn-button {
@@ -117,8 +138,16 @@ a {
   background-color: #365902;
 }
 
+#entrar:active{
+  box-shadow: inset 0px 0px 2px 2px rgba( 0, 0, 0, 0.3)
+}
+
 #cadastrar {
   color: #f27405;
   border-radius: 4px;
   border: 2px solid #f27405;
+}
+
+#cadastrar:active{
+  box-shadow: inset 0px 0px 2px 2px rgba( 0, 0, 0, 0.3)
 }
