@@ -9,7 +9,7 @@ body {
   padding: 50px;
 }
 
-.pn-wallpaper {
+.pn-wallpaper-guias {
   height: 350px;
   background: url('../../assets/wallpaper.jpg');
   background-position: center;
@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 
-.pn-wallpaper h1 {
+.pn-wallpaper-guias h1 {
   color: #fff;
   font-size: 3rem;
 }
