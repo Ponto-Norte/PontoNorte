@@ -8,17 +8,16 @@ p {
   font-family: 'Poppins';
 }
 
-ul,li{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
-
-
 
 .pn-foto-trilha {
   height: 200px;
-   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   width: 250px;
   background-position: center;
   background-size: cover;
@@ -29,77 +28,74 @@ ul,li{
   align-items: center;
 }
 
-.pn-info{
-    background-color: aquamarine;
-    width: 250px;
-    height: 250px;
-     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 0px 0px 30px 30px;
-    justify-items: center
-  
+.pn-info {
+  background-color: aquamarine;
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 0px 0px 30px 30px;
+  justify-items: center;
 }
 
-.localiza  {
-    font-family: 'Poppins';
-    display: flex;
-    justify-self: center;
-    gap: 95px;
-    margin-top: -5px;
-  
-    
-    
+.localiza {
+  font-family: 'Poppins';
+  display: flex;
+  justify-self: center;
+  gap: 95px;
+  margin-top: -5px;
+  position: relative;
 }
 
-.pn-info h3{
-    font-size: 1.2rem;
-    padding: 5px;
-    position: relative;
-    text-align: left;
-    justify-self: start;
-    margin-left: 5px;
+.pn-info h3 {
+  font-size: 1.2rem;
+  padding: 5px;
+  position: relative;
+  text-align: left;
+  justify-self: start;
+  margin-left: 5px;
 }
 
-.pn-info h3::before{
-    content: "";
-    width: 230px;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    top: 30px;
-    left: 5px;
+.localiza::before {
+  content: '';
+  width: 230px;
+  height: 2px;
+  background-color: #e2e2e2;
+  position: absolute;
+  top: 0px;
+  left: 5px;
 }
 
-#description p{
-    font-size: .875rem;
-    line-height: 1.2;
-    max-width: 26ch;
-   margin: 15px 0px;
-   font-weight: 500;
+.texto {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  max-width: 25ch;
+  margin: 20px 0px;
+  font-weight: 500;
 }
 
-.pn-distancia{
-    font-family: 'Poppins';
-    justify-self: start;
-    margin-left: 10px;
+.pn-distancia {
+  font-family: 'Poppins';
+  justify-self: start;
+  margin-left: 10px;
 }
-.pn-distancia p{
-    font-size: .875rem;
-    line-height: 1.2;
+.pn-distancia p {
+  font-size: 0.875rem;
+  line-height: 1.2;
 }
 
-.pn-distancia span{
-    font-weight: 500;
-    font-size: .975rem;
+.pn-distancia span {
+  font-weight: 500;
+  font-size: 0.975rem;
 }
 
 .conhecer {
-    text-decoration: none;
-    font-family: 'Poppins';
-    padding: 7px 15px;
-    background-color: bisque;
-    border-radius: 4px;
-    display: block;
-    justify-self: end;
-    margin-right: 15px;
-    margin-top: 15px
+  text-decoration: none;
+  font-family: 'Poppins';
+  padding: 7px 15px;
+  background-color: bisque;
+  border-radius: 4px;
+  display: block;
+  justify-self: end;
+  margin-right: 15px;
+  margin-top: 5px;
 }

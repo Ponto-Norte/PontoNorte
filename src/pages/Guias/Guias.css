@@ -4,7 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #f0f0f0;
-  font-family: 'Poppins', sans-serif ;
+  font-family: 'Poppins', sans-serif;
 }
 
 .pn-wallpaper-guias {
@@ -103,14 +103,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
   max-width: 1300px;
   margin: 0 auto;
-<<<<<<< HEAD
-  gap: 30px;
-  margin-top: 50px;
-=======
   gap: 80px;
   padding: 50px 0px;
   justify-items: center;
->>>>>>> cf446af6ece46197c596e6bbff801eb039722167
 }
 
 .pn-card-um {
