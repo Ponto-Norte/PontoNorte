@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
   margin: 0px;
   padding: 0px;
   background-color: #f0f0f0;
@@ -24,7 +24,7 @@ body{
   margin-top: -130px;
 }
 
-.pn-buscar-guias{
+.pn-buscar-guias {
   margin: 0 auto;
   background-color: #fff;
   max-width: 1080px;
@@ -38,12 +38,12 @@ body{
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
-.pn-caixa-busca{
+.pn-caixa-busca {
   align-content: center;
   position: relative;
 }
 
-.pn-caixa-busca button{
+.pn-caixa-busca button {
   border: none;
   border-radius: 60px;
   outline: none;
@@ -58,17 +58,14 @@ body{
   cursor: pointer;
 }
 
-
-.pn-caixa-busca button:active{
+.pn-caixa-busca button:active {
   box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-
-
-.pn-caixa-busca input{
+.pn-caixa-busca input {
   padding: 0px 230px 0px 20px;
   border: none;
-  border-radius: 60px ;
+  border-radius: 60px;
   outline: none;
   width: 680px;
   height: 60px;
@@ -76,40 +73,41 @@ body{
   font-size: 24px;
 }
 
-.pn-conteudo-buscar-guias{
+.pn-conteudo-buscar-guias {
   justify-items: center;
 }
 
-.pn-conteudo-buscar-guias h2{
+.pn-conteudo-buscar-guias h2 {
   font-size: 2.7rem;
   color: #000;
 }
 
-.pn-conteudo-buscar-guias .pn-caixa-busca{
+.pn-conteudo-buscar-guias .pn-caixa-busca {
   margin-top: 50px;
 }
 
-.pn-titulo-guias{
+.pn-titulo-guias {
   margin: 0 auto;
   max-width: 1300px;
   margin-top: 50px;
 }
 
-.pn-titulo-guias h2{
+.pn-titulo-guias h2 {
   color: #000;
   font-size: 30px;
 }
 
-.pn-cards-guias{
+.pn-cards-guias {
+  justify-content: center;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(4, 1fr);
   max-width: 1300px;
   margin: 0 auto;
-  gap: 60px;
-  padding: 50px;
+  gap: 30px;
+  margin-top: 50px;
 }
 
-.pn-card-um{
+.pn-card-um {
   max-width: 100%;
   width: 350px;
   height: 620px;
@@ -117,12 +115,12 @@ body{
   border-radius: 60px;
 }
 
-.pn-card-um .pn-ul-card-foto-um{
+.pn-card-um .pn-ul-card-foto-um {
   padding: 0px;
   margin: 0px;
 }
 
-.pn-card-um-foto{
+.pn-card-um-foto {
   background: url(../../assets/guias/guia1.jpg);
   max-width: 100%;
   width: 350px;
@@ -135,7 +133,7 @@ body{
   padding: 0px;
 }
 
-.pn-card-um-conteudo{
+.pn-card-um-conteudo {
   background-color: #fff;
   max-width: 100%;
   width: 350px;
@@ -145,29 +143,29 @@ body{
   padding: 0px;
 }
 
-.pn-cd-um-conteudo-membros{
+.pn-cd-um-conteudo-membros {
   padding: 30px 20px;
   position: relative;
 }
 
-.pn-cd-um-conteudo-membros h2{
+.pn-cd-um-conteudo-membros h2 {
   color: #000;
   display: inline-block;
   border-bottom: 4px solid #365902;
 }
 
-.pn-avaliacao-card-guia{
+.pn-avaliacao-card-guia {
   list-style: none;
   display: flex;
   padding: 0px;
   margin: 0px;
 }
 
-.pn-cd-um-conteudo-membros .pn-avaliacao-guia-um{
+.pn-cd-um-conteudo-membros .pn-avaliacao-guia-um {
   margin-top: -10px;
 }
 
-.pn-cd-um-conteudo-membros button{
+.pn-cd-um-conteudo-membros button {
   justify-content: end;
   position: absolute;
   right: 40px;
@@ -183,6 +181,6 @@ body{
   cursor: pointer;
 }
 
-.pn-cd-um-conteudo-membros button:active{
+.pn-cd-um-conteudo-membros button:active {
   box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
