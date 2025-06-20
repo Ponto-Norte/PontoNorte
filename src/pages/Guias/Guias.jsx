@@ -155,6 +155,30 @@ function Guias() {
               </div>
             </div>
           </section>
+
+          <section className="pn-card-um">
+            <ul className='pn-ul-card-foto-um'>
+              <li className="pn-card-um-foto"></li>
+            </ul>
+            <div className="pn-card-um-conteudo">
+              <div className="pn-cd-um-conteudo-membros">
+                <h2>Jonas Almeida</h2>
+                <ul className='pn-avaliacao-card-guia'>
+                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
+                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
+                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
+                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
+                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
+                </ul>
+                <ul>
+                  <li className="pn-desc-guia-um">
+                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
+                  </li>
+                </ul>
+                <button className="pn-botao-guia-um">Conhecer</button>
+              </div>
+            </div>
+          </section>
         </section>
       </main>
       <Footer />

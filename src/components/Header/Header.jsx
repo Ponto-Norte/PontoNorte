@@ -6,7 +6,7 @@ function Header() {
     <div>
       <header className="pn-header">
         <div className="pn-header-container">
-          <img src={pnLogo} className="logo" alt="" />
+           <a href="#"><img src={pnLogo} className="logo" alt="" /></a>
 
           <div className="pn-pesquisa">
             <input
