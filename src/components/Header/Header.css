@@ -18,13 +18,13 @@ a {
   margin-right: 30px;
 }
 
-.pn-header {
+.pnHeader {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 8px 0;
 }
 
-.pn-header-container {
+.pnHeaderContainer {
   position: relative;
   display: flex;
   gap: 10px;
@@ -34,7 +34,7 @@ a {
   margin: 10px auto;
 }
 
-.pn-pesquisa button {
+.pnHeaderPesquisa button {
   z-index: 5;
   position: absolute;
   top: 12px;
@@ -49,20 +49,20 @@ a {
   cursor: pointer;
 }
 
-.pn-pesquisa button:hover {
+.pnHeaderPesquisa button:hover {
   color: #000;
   transition: 0.2s;
 }
 
-.pn-pesquisa button:active{
+.pnHeaderPesquisa button:active {
   color: #ccc;
 }
 
-.pn-pesquisa {
+.pnHeaderPesquisa {
   position: relative;
 }
 
-.pn-barra-pesquisa {
+.pnHeaderBarraPesquisa {
   font-size: 1.1rem;
   width: 300px;
   height: 40px;
@@ -74,21 +74,21 @@ a {
   flex-grow: 1;
 }
 
-.pn-barra-pesquisa::placeholder {
+.pnHeaderBarraPesquisa::placeholder {
   color: #999;
 }
 
-.pn-barra-pesquisa:focus {
+.pnHeaderBarraPesquisa:focus {
   outline: none;
 }
 
-.pn-nav-menu {
+.pnHeaderNavMenu {
   margin-left: 0px;
   display: flex;
   gap: 30px;
 }
 
-.pn-nav-menu a {
+.pnHeaderNavMenu a {
   font-size: 1rem;
   font-weight: 450;
   color: #0e0e0e;
@@ -96,8 +96,8 @@ a {
   position: relative;
 }
 
-.pn-nav-menu a::after{
-  content: "";
+.pnHeaderNavmenu a::after {
+  content: '';
   bottom: 0px;
   position: absolute;
   left: 0;
@@ -107,25 +107,25 @@ a {
   transition: 0.3s ease-in-out;
 }
 
-.pn-nav-menu a:hover::after{
+.pnHeaderNavmenu a:hover::after {
   width: 100%;
 }
 
-.pn-button {
+.pnHeaderPesquisa button {
   background-color: transparent;
   border: none;
-  padding: 10px 15px;
+  padding: 0px 15px;
   cursor: pointer;
   color: #888;
   font-size: 1rem;
 }
 
-.pn-dados {
+.pnHeaderDados {
   display: flex;
   gap: 10px;
 }
 
-.pn-dados a {
+.pnHeaderDados a {
   font-size: 0.875rem;
   color: #fff;
   padding: 10px 20px;
@@ -138,8 +138,8 @@ a {
   background-color: #365902;
 }
 
-#entrar:active{
-  box-shadow: inset 0px 0px 2px 2px rgba( 0, 0, 0, 0.3)
+#entrar:active {
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 #cadastrar {
@@ -148,6 +148,6 @@ a {
   border: 2px solid #f27405;
 }
 
-#cadastrar:active{
-  box-shadow: inset 0px 0px 2px 2px rgba( 0, 0, 0, 0.3)
+#cadastrar:active {
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
 }

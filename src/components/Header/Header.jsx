@@ -1,17 +1,20 @@
 import '../Header/Header.css';
+import { Link } from 'react-router-dom';
 import pnLogo from '../../assets/pnLogo.svg';
 
 function Header() {
   return (
     <div>
-      <header className="pn-header">
-        <div className="pn-header-container">
-           <a href="#"><img src={pnLogo} className="logo" alt="" /></a>
+      <header className="pnHeader">
+        <div className="pnHeaderContainer">
+          <Link to="/">
+            <img src={pnLogo} className="logo" alt="" />
+          </Link>
 
-          <div className="pn-pesquisa">
+          <div className="pnHeaderPesquisa">
             <input
               type="text"
-              className="pn-barra-pesquisa"
+              className="pnHeaderBarraPesquisa"
               placeholder="Pesquise sua trilha aqui!"
             />
 
@@ -20,35 +23,35 @@ function Header() {
             </button>
           </div>
 
-          <nav className="pn-nav">
+          <nav className="pnHeaderNav">
             <nav aria-label="navegação primaria">
-              <ul className="pn-nav-menu">
+              <ul className="pnHeaderNavMenu">
                 <li>
-                  <a href="/">Início</a>
+                  <Link to="/">Início</Link>
                 </li>
                 <li>
-                  <a href="/Trilhas">Trilhas</a>
+                  <Link to="/">Trilhas</Link>
                 </li>
                 <li>
-                  <a href="/Guias">Guias</a>
+                  <Link to="/">Guias</Link>
                 </li>
                 <li>
-                  <a href="/Parceiros">Parceiros</a>
+                  <Link to="/">Parceiros</Link>
                 </li>
                 <li>
-                  <a href="/Planos">Planos</a>
+                  <Link to="/">Planos</Link>
                 </li>
               </ul>
             </nav>
           </nav>
 
-          <div className="pn-dados">
-            <a id="entrar" href="#">
+          <div className="pnHeaderDados">
+            <Link id="entrar" to="#">
               Entrar
-            </a>
-            <a id="cadastrar" href="#">
+            </Link>
+            <Link id="cadastrar" to="#">
               Cadastre-se
-            </a>
+            </Link>
           </div>
         </div>
       </header>

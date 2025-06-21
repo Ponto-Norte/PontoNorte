@@ -1,77 +1,84 @@
 import PontoNorteLogo from '../../assets/PontoNorteLogo.png';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function FooterPontoNorte() {
   return (
-    <footer className="pn-footer-site">
-      <div className="pn-container">
-        <div className="pn-info-marca">
+    <footer className="pnFooterSite">
+      <div className="pnFooterContainer">
+        <div className="pnInfoMarca">
           <img src={PontoNorteLogo} alt="Logo da Ponto Norte" />
         </div>
-        <div className="pn-footer-coluna-um">
+        <div className="pnFooterColum">
           <h2>Plataforma</h2>
           <ul>
             <li>
-              <a href="">Trilhas</a>
+              <Link to="">Trilhas</Link>
             </li>
             <li>
-              <a href="">Planos</a>
+              <Link to="">Planos</Link>
             </li>
             <li>
-              <a href="">Guias</a>
+              <Link to="">Guias</Link>
             </li>
           </ul>
         </div>
-        <div className="pn-footer-coluna-dois">
+        <div className="pnFooterColum">
           <h2>Ajuda</h2>
           <ul>
             <li>
-              <a href="">Perguntas Frequentes</a>
+              <Link to="">Perguntas Frequentes</Link>
             </li>
             <li>
-              <a href="">Termos e Privacidade</a>
+              <Link to="">Termos e Privacidade</Link>
             </li>
             <li>
-              <a href="">LGPD</a>
+              <Link to="">LGPD</Link>
             </li>
           </ul>
         </div>
-        <div className="pn-footer-coluna-tres">
+        <div className="pnFooterColum">
           <h2>Contatos</h2>
           <ul>
             <li>
-              <a href="">+55 (11)99999-9999</a>
+              <Link to="">+55 (11)99999-9999</Link>
             </li>
             <li>
-              <a href="">suporte@pontonorte.com.br</a>
+              <Link to="">suporte@pontonorte.com.br</Link>
             </li>
           </ul>
         </div>
-        <div className="pn-footer-coluna-quatro">
+        <div className="pnFooterColum">
           <ul>
             <li>
-              <a href="">Rua Tito, 54</a>
+              <Link to="">Rua Tito, 54</Link>
             </li>
             <li>
-              <a href="">CEP 05051-000</a>
+              <Link to="">CEP 05051-000</Link>
             </li>
             <li>
-              <a href="">São Paulo, SP</a>
+              <Link to="">São Paulo, SP</Link>
             </li>
-            <div className="pn-redes-sociais">
-              <a href="">
-                <img
-                  src="https://img.icons8.com/ios-glyphs/30/FFFFFF/linkedin.png"
-                  alt="linkedin"
-                />{' '}
-              </a>
-              <a href="">
-                <img
-                  src="https://img.icons8.com/material-outlined/50/FFFFFF/instagram-new.png"
-                  alt="instagram-new"
-                />{' '}
-              </a>
-            </div>
+
+            <ul className="pnRedesSociais">
+              <li>
+                <Link target="blank" to="">
+                  <img
+                    src="https://img.icons8.com/ios-glyphs/30/FFFFFF/linkedin.png"
+                    alt="linkedin"
+                  />
+                </Link>
+              </li>
+
+              <li>
+                <Link target="blank" to="http://instagram.com">
+                  <img
+                    src="https://img.icons8.com/material-outlined/50/FFFFFF/instagram-new.png"
+                    alt="instagram-new"
+                  />
+                </Link>
+              </li>
+            </ul>
           </ul>
         </div>
       </div>

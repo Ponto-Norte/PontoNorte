@@ -2,67 +2,86 @@ import '../Parceiros/Parceiros.css';
 import lume from '../../assets/parceiros/LogoLume.png';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
+
 function Parceiros() {
   return (
     <>
       <Header />
-      <section>
-        <div className="pn-wallpaper-guias">
+      <section className="pnParceirosTotal">
+        <div className="pnParceirosWallpaper">
           <h1>Conheça nossos Parceiros!</h1>
         </div>
-
-        <section className="pn-parceiros-container">
-          <article className="pn-parceiro">
+        <section className="pnParceirosContainer">
+          <div className="pnParceirosEsquerda">
             <img src={lume} alt="" />
-            <div className="pn-conteudo">
-              <h2>Lume</h2>
-              <p>
-                Através da nossa parceria com a Lume, você garante 15% de
-                desconto em diversos produtos da plataforma. É só usar o cupom{' '}
-                <b>PONTONORTE15</b> no site da Lume e aproveitar!
-              </p>
-              <a href="#">Ir para</a>
-            </div>
-          </article>
+          </div>
+          <div className="pnParceirosDados">
+            <h2>Lume</h2>
+            <p>
+              Através da nossa parceria com a <span>Lume</span>, você garante
+              15% de desconto em diversos calçados e produtos da marca. É só
+              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              <span>Lume</span> e aproveitar!
+            </p>
+            <Link className="pnBotaoParceiros" to="">
+              Visitar Pagina
+            </Link>
+          </div>
+        </section>
 
-          <article className="pn-parceiro-um">
-            <div className="pn-conteudo-um">
-              <h2>Lume</h2>
-              <p>
-                Através da nossa parceria com a Lume, você garante 15% de
-                desconto em diversos produtos da plataforma. É só usar o cupom{' '}
-                <b>PONTONORTE15</b> no site da Lume e aproveitar!
-              </p>
-              <a href="#">Ir para</a>
-            </div>
+        <section className="pnParceirosContainer">
+          <div className="pnParceirosDados">
+            <h2>Lume</h2>
+            <p>
+              Através da nossa parceria com a <span>Lume</span>, você garante
+              15% de desconto em diversos calçados e produtos da marca. É só
+              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              <span>Lume</span> e aproveitar!
+            </p>
+            <Link className="pnBotaoParceiros" to="">
+              Visitar Pagina
+            </Link>
+          </div>
+          <div className="pnParceirosEsquerda">
             <img src={lume} alt="" />
-          </article>
+          </div>
+        </section>
 
-          <article className="pn-parceiro">
+        <section className="pnParceirosContainer">
+          <div className="pnParceirosEsquerda">
             <img src={lume} alt="" />
-            <div className="pn-conteudo">
-              <h2>Lume</h2>
-              <p>
-                Através da nossa parceria com a Lume, você garante 15% de
-                desconto em diversos produtos da plataforma. É só usar o cupom{' '}
-                <b>PONTONORTE15</b> no site da Lume e aproveitar!
-              </p>
-              <a href="#">Ir para</a>
-            </div>
-          </article>
+          </div>
+          <div className="pnParceirosDados">
+            <h2>Lume</h2>
+            <p>
+              Através da nossa parceria com a <span>Lume</span>, você garante
+              15% de desconto em diversos calçados e produtos da marca. É só
+              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              <span>Lume</span> e aproveitar!
+            </p>
+            <Link className="pnBotaoParceiros" to="">
+              Visitar Pagina
+            </Link>
+          </div>
+        </section>
 
-          <article className="pn-parceiro-um">
-            <div className="pn-conteudo-um">
-              <h2>Lume</h2>
-              <p>
-                Através da nossa parceria com a Lume, você garante 15% de
-                desconto em diversos produtos da plataforma. É só usar o cupom{' '}
-                <b>PONTONORTE15</b> no site da Lume e aproveitar!
-              </p>
-              <a href="#">Ir para</a>
-            </div>
+        <section className="pnParceirosContainer">
+          <div className="pnParceirosDados">
+            <h2>Lume</h2>
+            <p>
+              Através da nossa parceria com a <span>Lume</span>, você garante
+              15% de desconto em diversos calçados e produtos da marca. É só
+              usar o cupom <span>PONTONORTE15</span> no site da{' '}
+              <span>Lume</span> e aproveitar!
+            </p>
+            <Link className="pnBotaoParceiros" to="">
+              Visitar Pagina
+            </Link>
+          </div>
+          <div className="pnParceirosEsquerda">
             <img src={lume} alt="" />
-          </article>
+          </div>
         </section>
       </section>
       <Footer />
