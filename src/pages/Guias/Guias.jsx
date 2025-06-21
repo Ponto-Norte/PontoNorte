@@ -1,184 +1,137 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import '../Guias/Guias.css';
-import Guia1 from '../../assets/guias/guia1.jpg';
+import GuiaComponente from '../../components/GuiaComponete/GuiaComponente'
 
 function Guias() {
   return (
     <>
       <Header />
-      <main className="pn-guias">
-        <div className="pn-wallpaper-guias">
+      <main className="pnGuias">
+        <div className="pnWallpaperGuias">
           <h1>Trilhe com confiança</h1>
         </div>
 
-        <section className="pn-buscar-guias">
-          <div className="pn-conteudo-buscar-guias">
+        <section className="pnBuscarGuias">
+          <div className="pnConteudoBuscarGuias">
             <h2>Escolha o seu guia</h2>
-            <div className="pn-caixa-busca">
+            <div className="pnCaixaBuscaGuias">
               <input
                 type="text"
                 placeholder="Encontre o seu guia"
-                className="pn-pesquisar-guia"
+                className="pnPesquisarGuias"
                 name=""
                 id=""
               />
               {/*<a href="" className='pn-botao-buscar'>Buscar</a>*/}
-              <button type="button" classname="pn-botao-buscar">
+              <button type="button" className="pnBotaoBuscarGuias">
                 Buscar
               </button>
             </div>
           </div>
         </section>
 
-        <section className="pn-titulo-guias">
+        <section className="pnTituloGuias">
           <h2>Guias da plataforma</h2>
         </section>
 
-        <section className="pn-cards-guias">
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
 
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
+        <section className="pnCardsGuias">
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia1.jpg"
+            nome="Jonas Almeida"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo."
+            botao="Conhecer"
+          />
 
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia2.jpg"
+            nome="Jailson José"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Guiando iniciantes com energia e segurança. Bora dar o primeiro passo!"
+            botao="Conhecer"
+          />
 
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia3.jpg"
+            nome="Julia Oliveira"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Sou bióloga e guia. Adoro mostrar a natureza de um jeito leve e curioso."
+            botao="Conhecer"
+          />
 
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia4.jpg"
+            nome="Amanda Rafaela"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Especialista em montanhas, priorizo segurança e boas histórias na trilha."
+            botao="Conhecer"
+          />
 
-          <section className="pn-card-um">
-            <ul className='pn-ul-card-foto-um'>
-              <li className="pn-card-um-foto"></li>
-            </ul>
-            <div className="pn-card-um-conteudo">
-              <div className="pn-cd-um-conteudo-membros">
-                <h2>Jonas Almeida</h2>
-                <ul className='pn-avaliacao-card-guia'>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/fluency/30/star--v1.png" alt="star--v1"/></li>
-                  <li><img width="30" height="30" src="https://img.icons8.com/color/30/star--v1.png" alt="star--v1"/></li>
-                </ul>
-                <ul>
-                  <li className="pn-desc-guia-um">
-                    Montanhista e fotógrafo. Busco sempre o melhor ângulo da natureza com o grupo.
-                  </li>
-                </ul>
-                <button className="pn-botao-guia-um">Conhecer</button>
-              </div>
-            </div>
-          </section>
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia5.jpg"
+            nome="Suzana Santos"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Cachoeiras são meu ponto forte! Curto criar roteiros divertidos e refrescantes."
+            botao="Conhecer"
+          />
+
+          <GuiaComponente 
+            foto= "/src/assets/guias/guia6.jpg"
+            nome="Lucas Ferreira"
+            avaliacao= {
+              <>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/fluency/25/star--v1.png" alt="star--v1"/>
+                <img width="25" height="25" src="https://img.icons8.com/color/25/star--v1.png" alt="star--v1"/>
+              </>
+            }
+            descricao="Guia local. Trago cultura e história para cada passo da trilha."
+            botao="Conhecer"
+          />
         </section>
       </main>
       <Footer />

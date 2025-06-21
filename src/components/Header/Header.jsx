@@ -27,19 +27,29 @@ function Header() {
             <nav aria-label="navegação primaria">
               <ul className="pnHeaderNavMenu">
                 <li>
-                  <Link to="/">Início</Link>
+                  <Link className="pnHeaderLink" to="/">
+                    Início
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/">Trilhas</Link>
+                  <Link className="pnHeaderLink" to="/">
+                    Trilhas
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/">Guias</Link>
+                  <Link className="pnHeaderLink" to="/">
+                    Guias
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/">Parceiros</Link>
+                  <Link className="pnHeaderLink" to="/">
+                    Parceiros
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/">Planos</Link>
+                  <Link className="pnHeaderLink" to="/">
+                    Planos
+                  </Link>
                 </li>
               </ul>
             </nav>
