@@ -19,7 +19,7 @@ function Header() {
             />
 
             <button>
-              <i class="bxr  bx-search"></i>
+              <i className="bxr  bx-search"></i>
             </button>
           </div>
 

@@ -61,7 +61,7 @@ function CardTrilha() {
             </li>
           </ul>
 
-          <Link id="pnCardTrilhasBotao" to="">
+          <Link id="pnCardTrilhasBotao" to="/">
             Conhecer
           </Link>
         </div>

@@ -2,7 +2,6 @@ body {
   font-family: 'Poppins';
   margin: 0px;
   padding: 0px;
-  margin: 100px;
 }
 
 h1,
@@ -33,14 +32,14 @@ li {
   height: 300px;
   display: grid;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .pnCardTrilhasFoto img {
   border-radius: 25px 25px 0px 0px;
-  width: 250px;
+  width: 270px;
   height: 200px;
 }
 
@@ -87,7 +86,7 @@ li {
 }
 
 .pnCardTrilhasDistancia li {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .pnCardTrilhasDistancia span {
@@ -102,6 +101,5 @@ li {
   background-color: black;
   border-radius: 4px;
   justify-self: end;
-
-  margin-right: 5px;
+  margin-top: 20px;
 }
