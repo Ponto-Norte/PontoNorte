@@ -68,8 +68,8 @@ body {
   display: block;
   border-radius: 4px;
   align-self: end;
-  text-transform: uppercase;
   justify-self: start;
+  color: #fff;
 }
 
 .pnParceirosTotal {

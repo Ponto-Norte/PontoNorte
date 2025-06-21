@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import Parceiros from './pages/Parceiros/Parceiros';
 import Guias from './pages/Guias/Guias';
+import Plano from './pages/Plano/Plano';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Guias />
+      <Plano />
     </BrowserRouter>
   </StrictMode>,
 );

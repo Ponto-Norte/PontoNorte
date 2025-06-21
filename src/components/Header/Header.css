@@ -15,7 +15,6 @@ a {
 
 .logo {
   max-width: 100%;
-  margin-right: 30px;
 }
 
 .pnHeader {
@@ -37,10 +36,10 @@ a {
 .pnHeaderPesquisa button {
   z-index: 5;
   position: absolute;
-  top: 12px;
+  top: 14px;
   font-size: 1.1rem;
   color: #999;
-  right: 18px;
+  right: 5px;
   background: none;
   border: none;
   padding: 0;
@@ -86,7 +85,10 @@ a {
   margin-left: 0px;
   display: flex;
   gap: 30px;
-  margin-top: 20px;
+}
+
+.pnHeaderNavMenu li {
+  margin: 0px;
 }
 
 .pnHeaderLink {
