@@ -1,5 +1,6 @@
 body {
   font-family: 'poppins';
+  margin: 0px;
 }
 
 ul,
@@ -36,10 +37,10 @@ a {
 .pnHeaderPesquisa button {
   z-index: 5;
   position: absolute;
-  top: 12px;
+  top: 14px;
   font-size: 1.1rem;
   color: #999;
-  right: 18px;
+  right: 5px;
   background: none;
   border: none;
   padding: 0;
@@ -161,8 +162,6 @@ a {
 
 @media (max-width: 1300px) {
   .pnHeaderContainer {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
 }
