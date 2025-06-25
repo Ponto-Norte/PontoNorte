@@ -37,6 +37,10 @@ function LoginTela(){
               </div>
            </form>
            
+            <div className="pnLoginAcessibilidade">
+              <a href=""><img width="60" height="60" src="https://img.icons8.com/ios-filled/60/0000ff/accessibility2.png" alt="accessibility2"/></a>
+            </div>
+
           </section>
         </section>
         

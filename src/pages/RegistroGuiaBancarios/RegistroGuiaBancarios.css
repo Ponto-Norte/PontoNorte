@@ -13,7 +13,7 @@ main{
   height: 100vh;
 }
 
-.pnLoginEsquerdo{
+.pnRegistroGuiaBancariosEsq{
   margin: 0px;
   padding: 0px;
   height: 100vh;
@@ -26,7 +26,7 @@ img{
   width: 550px;
 }
 
-.pnLoginImagemFundo{
+.pnRegistroGuiaBancariosImg{
   margin: 0px;
   padding: 0px;
   width: 50vw;
@@ -40,13 +40,13 @@ img{
   display: flex;
 }
 
-.pnLoginFormContainer{
+.pnRegistroGuiaBancariosFormContainer{
   max-width: 400px;
   margin: 0px;
   padding: 0px;
 }
 
-.pnLoginDireito{
+.pnRegistroGuiaBancariosDir{
   margin: 0px;
   padding: 0px;
   width: 50vw;
@@ -61,32 +61,37 @@ form{
   align-content: center;
 }
 
-.pnLoginForm{
+.pnRegistroGuiaBancariosForm{
   justify-content: center;
   align-items: center;
   flex-direction: column;
   display: flex;
 }
 
-.pnLoginForm h1{
+.pnRegistroGuiaBancariosForm h1{
   font-size: 2rem;
 }
 
-.pnLoginGrupo{
+.pnRegistroGuiaBancariosGrupo{
   display: flex;
   align-items: center;
   width: 400px;
   border-bottom: 1px solid #000;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
-.pnLoginGrupo img {
+.pnRegistroGuiaBancariosGrupo img {
   width: 20px;
   height: 20px;
 }
 
-.pnLoginCampoEmail,
-.pnLoginCampoSenha {
+.pnRegistroGuiaBancariosCampoEmail,
+.pnRegistroGuiaBancariosCampoSenha,
+.pnRegistroGuiaBancariosCampoNome,
+.pnRegistroGuiaBancariosCampoSobrenome,
+.pnRegistroGuiaBancariosCampoRepetirSenha,
+.pnRegistroGuiaBancariosCampoCPF,
+.pnRegistroGuiaBancariosCampoTelefone {
   border: none;
   background: none;
   outline: none;
@@ -95,30 +100,16 @@ form{
   height: 20px;
 }
 
-.pnContainerOpcao{
-  display: flex;
-  width: 400px;
-  margin-top: 10px;
-  justify-content: space-between;
-  align-items: center;
-  color: #8e8e8e;
-  font-size: .800rem;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.pnLoginCheck{
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.pnContainerOpcao a{
-  color: #8e8e8e;
-}
-
-.pnLoginButton{
+.pnRegistrarGuiaBancariosButton{
   margin: 0px;
   padding: 0px;
-  margin-top: 60px;
+  margin-top: 40px;
   border: none;
   background-color: #F2B705;
   width: 400px;
@@ -130,30 +121,33 @@ form{
   cursor: pointer;
 }
 
-.pnLoginButton:active{
+.pnRegistrarGuiaBancariosButton:active{
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 
-.pnLoginForm h2{
+.pnRegistroGuiaBancariosFormContainer h2{
   padding: 0px;
   margin: 0px;
   font-size: .800rem;
-  margin-top: 50px;
+  margin-top: 20px;
   color: #000;
 }
 
-.pnLoginForm h2 a{
+.pnGuiaBancariosButtonLink1{
   color: #365902;
 }
+.pnGuiaBancariosButtonLink2{
+  color: #F27405;
+}
 
-.pnLoginAcessibilidade {
+.pnRegistroGuiaBancariosAcessibilidade {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1000; 
 }
 
-.pnLoginAcessibilidade img{
+.pnRegistroGuiaBancariosAcessibilidade img{
   width: 60px;
   height: 60px;
   cursor: pointer;
