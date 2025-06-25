@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins';
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.pnHomeUm {
+  max-width: 1200px;
+  margin: 50px auto;
+  background: url('../../assets/planos/home.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-radius: 30px 30px 200px 30px;
+  display: grid;
+  align-items: center;
+}
+
+.pnHomeUmConteudo {
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 570px;
+  height: 250px;
+  border-radius: 20px;
+  margin-left: 50px;
+  padding: 30px;
+  display: grid;
+  align-items: center;
+}
+
+.pnHomeUmConteudo h1 {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  color: #f27405;
+  line-height: 1.1;
+}
+
+.pnHomeUmConteudo p {
+  max-width: 50ch;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.pnHomeBotaoUm {
+  color: #fff;
+  background-color: black;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: block;
+  justify-self: start;
+}
+
+.pnHomePtTres {
+  background-color: black;
+  height: 850px;
+  padding: 50px;
+}
+
+.pnHomePtTresContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pnHomePtTrestitulo {
+  justify-items: center;
+}
+
+.pnHomePtTrestitulo h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.pnHomePtTrestitulo p {
+  color: #fff;
+  font-size: 1.2rem;
+  max-width: 40ch;
+  text-align: center;
+}
+
+.pnHomeDados li {
+  background-color: #fff;
+  width: 450px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 50px;
+  align-content: center;
+}
+
+.pnHomePerfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 4px solid #365902;
+}
+
+.pnHomeNome {
+  font-weight: 500;
+  font-size: 1.3rem;
+  position: relative;
+  margin-bottom: 5px;
+}
+.pnHomeNome::before {
+  content: '';
+  height: 3px;
+  width: 150px;
+  top: 30px;
+  background-color: black;
+  position: absolute;
+}
+
+.pnHomeTresSuperior {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 15px;
+}
+
+.pnHomePtTrestitulo {
+  margin-top: 20px;
+}
+
+.pnHomeComentario {
+  font-size: 1rem;
+  max-width: 40ch;
+  font-weight: 600;
+  margin: 30px auto;
+}
+
+.pnHomeFotos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.pnHomeFotos img {
+  display: block;
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+.pnHomeAvaliacao {
+  margin-left: -50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
