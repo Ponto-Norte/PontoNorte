@@ -27,7 +27,7 @@ function Home() {
       </section>
 
       <article className="pnHomePtTres">
-        <div children="pnHomePtTresContainer">
+        <div className="pnHomePtTresContainer">
           <div className="pnHomePtTrestitulo">
             <h2>Compartilhe suas experiências</h2>
             <p>
@@ -173,7 +173,7 @@ function Home() {
       <Slide />
 
       <article className="pnHomePtTres">
-        <div children="pnHomePtTresContainer">
+        <div className="pnHomePtTresContainer">
           <div className="pnHomePtTrestitulo">
             <h2>Compartilhe suas experiências</h2>
             <p>
