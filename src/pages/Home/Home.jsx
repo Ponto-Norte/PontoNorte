@@ -171,6 +171,150 @@ function Home() {
       </article>
 
       <Slide />
+
+      <article className="pnHomePtTres">
+        <div children="pnHomePtTresContainer">
+          <div className="pnHomePtTrestitulo">
+            <h2>Compartilhe suas experiências</h2>
+            <p>
+              Comente, faça postagens sobre suas aventuras e interaja com outros
+              usuários.
+            </p>
+          </div>
+
+          <div className="pnHomeComentarios">
+            <div className="pnHomeDados">
+              <ul className="pnHomeAvaliacao">
+                <li>
+                  <div className="pnHomeTresSuperior">
+                    <img className="pnHomePerfil" src={foto1} alt="" />
+                    <div>
+                      <p className="pnHomeNome">Mariana coral</p>
+                      <div className="pnHomeStrelas">
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="pnHomeComentario">
+                    Realizar essa trilha foi especial para mim. Poder revisitar
+                    esse lugar e relembrar de todos os seus significados me traz
+                    ótimas sensações.
+                  </p>
+
+                  <div className="pnHomeFotos">
+                    <img src={natu} alt="" />
+                    <img src={nature} alt="" />
+                  </div>
+                </li>
+
+                <li>
+                  <div className="pnHomeTresSuperior">
+                    <img className="pnHomePerfil" src={foto1} alt="" />
+                    <div>
+                      <p className="pnHomeNome">Mariana coral</p>
+                      <div className="pnHomeStrelas">
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="pnHomeComentario">
+                    Realizar essa trilha foi especial para mim. Poder revisitar
+                    esse lugar e relembrar de todos os seus significados me traz
+                    ótimas sensações.
+                  </p>
+
+                  <div className="pnHomeFotos">
+                    <img src={natu} alt="" />
+                    <img src={nature} alt="" />
+                  </div>
+                </li>
+
+                <li>
+                  <div className="pnHomeTresSuperior">
+                    <img className="pnHomePerfil" src={foto1} alt="" />
+                    <div>
+                      <p className="pnHomeNome">Mariana coral</p>
+                      <div className="pnHomeStrelas">
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                        <img
+                          src="https://img.icons8.com/fluency/30/star--v1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="pnHomeComentario">
+                    Realizar essa trilha foi especial para mim. Poder revisitar
+                    esse lugar e relembrar de todos os seus significados me traz
+                    ótimas sensações.
+                  </p>
+
+                  <div className="pnHomeFotos">
+                    <img src={natu} alt="" />
+                    <img src={nature} alt="" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
     </>
   );
 }
