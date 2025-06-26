@@ -70,99 +70,371 @@ li {
   justify-self: start;
 }
 
-.pnHomePtTres {
-  background-color: black;
-  height: 850px;
-  padding: 50px;
+.pnHomePtQuatrotitulo {
+  margin-top: 20px;
 }
-
-.pnHomePtTresContainer {
+.pnHomePtQuatroContainer {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 50px 0px;
 }
-.pnHomePtTrestitulo {
+.pnHomePtQuatrotitulo {
   justify-items: center;
 }
 
-.pnHomePtTrestitulo h2 {
+.pnHomePtQuatrotitulo h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
   color: #fff;
 }
-.pnHomePtTrestitulo p {
+.pnHomePtQuatrotitulo p {
   color: #fff;
   font-size: 1.2rem;
   max-width: 40ch;
   text-align: center;
 }
 
-.pnHomeDados li {
-  background-color: #fff;
-  width: 450px;
-  height: 500px;
-  padding: 15px;
-  border-radius: 50px;
-  align-content: center;
+.pnHomePtQuatro {
+  background-color: #365902;
 }
 
-.pnHomePerfil {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: 4px solid #365902;
+.pnHomeQuartoAvaliacao li {
+  justify-content: center;
 }
 
-.pnHomeNome {
+.pnFundoGuias {
+  background-color: #365902;
+  padding: 70px;
+}
+
+.pnContainerGuias {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pnDadosGuias {
+  text-align: center;
+}
+
+.pnDadosGuias h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.pnCardGuia {
+  padding: 0px;
+}
+
+.pnDadosGuias p {
+  font-size: 1.2rem;
+  color: #fff;
   font-weight: 500;
-  font-size: 1.3rem;
-  position: relative;
-  margin-bottom: 5px;
-}
-.pnHomeNome::before {
-  content: '';
-  height: 3px;
-  width: 150px;
-  top: 30px;
-  background-color: black;
-  position: absolute;
 }
 
-.pnHomeTresSuperior {
+.pnCardGuia p {
+  text-align: center;
+  justify-content: start;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.pnCardGuia {
   display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-left: 15px;
+  gap: 30px;
 }
 
-.pnHomePtTrestitulo {
+.pnCardGuia li {
+  margin-top: 80px;
+  justify-items: center;
+  align-items: start;
+  background-color: #fff;
+  padding: 60px;
+  width: 300px;
+  display: grid;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  gap: 20px;
+}
+
+.pnStrelaGuias {
+  margin-top: -10px;
+}
+
+.pnGuiaAlterna {
+  height: 350px;
+}
+
+.pnGuiaAlterna .pnStrelaGuias {
+  margin-top: -30px;
+}
+
+.pnGuiaAlterna .pnNomeGuia {
+  margin-top: -30px;
+}
+
+.pnHomeQuartoAvaliacao li {
+  justify-content: center;
+}
+
+.pnFundoTrilheiro {
+  background-color: #000;
+  padding: 70px;
+}
+
+.pnContainerTrilheiro {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pnDadosTrilheiro {
+  text-align: center;
+}
+
+.pnDadosTrilheiro h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.pnDadosTrilheiro p {
+  font-size: 1.1rem;
+  justify-self: center;
+  max-width: 40ch;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
   margin-top: 20px;
 }
 
-.pnHomeComentario {
-  font-size: 1rem;
-  max-width: 40ch;
-  font-weight: 600;
-  margin: 30px auto;
-}
-
-.pnHomeFotos {
+.pnCardTrilheiro {
   display: flex;
-  gap: 40px;
-  justify-content: center;
+  gap: 30px;
+  padding: 0px;
+  max-width: 1300px;
 }
 
-.pnHomeFotos img {
-  display: block;
-  border-radius: 10px;
-  width: 180px;
-  height: 180px;
-}
-
-.pnHomeAvaliacao {
-  margin-left: -50px;
-  display: flex;
+.pnCardTrilheiro li {
+  margin-top: 80px;
+  justify-items: center;
+  align-items: start;
+  background-color: #fff;
+  padding: 30px;
+  width: 320px;
+  display: grid;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
   gap: 20px;
-  justify-content: center;
+}
+
+.fotoTrilheiro {
+  width: 120px;
+  border-radius: 200px;
+}
+
+.pnTrilheiroDados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: start;
+}
+
+.pnTrilheiroDados p {
+  max-width: 40ch;
+  grid-column: 1 / -1;
+  margin-top: 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.pnTrilheiroDados h3 {
+  position: relative;
+  font-size: 1.2rem;
+  justify-self: center;
+  margin-left: -50px;
+}
+
+.pnTrilheiroDados h3::before {
+  content: '';
+  width: 100%;
+  top: 25px;
+  background-color: #365902;
+  height: 2px;
+  position: absolute;
+}
+
+.pnTrilheiroStar {
+  width: 25px;
+}
+
+.avalia {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+
+.pnFotosTrilheiro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.pnFotosTrilheiro img {
+  max-width: 100%;
+  width: 150px;
+  border-radius: 15px;
+  display: block;
+}
+
+.adpt {
+  margin-top: 10px;
+}
+
+.pnContainerRota {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.pnDadosRota h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: #f27405;
+}
+
+.pnDadosRota p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pnContainerAPI {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 50px;
+  padding: 50px;
+  border: 8px solid #d2d2d2;
+  gap: 20px;
+}
+
+.pnRotaEsquerda h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #000;
+}
+
+.pnRotaIndice {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+.pnRotaIndice li {
+  margin: 0px;
+}
+
+.pnRotaDireitaItem {
+  height: 380px;
+  margin-top: 10px;
+}
+
+.pnRotaDireita h3 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.pnRotaEsquerda span {
+  font-weight: 600;
+}
+
+.fotoTrilheiroRota {
+  margin-top: 20px;
+  height: 70px;
+  border-radius: 100px;
+}
+
+.pnNomeTrilheiroRota h3 {
+  font-size: 1.1rem;
+  margin-left: -60px;
+  margin-top: 30px;
+}
+
+.avaliaRota {
+  margin-left: -30px;
+}
+.avaliaRota img {
+  width: 20px;
+}
+
+.pnRotaDireitaItem {
+  display: grid;
+  border: 3px solid #f27405;
+  padding: 10px;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pnRotaFedback p {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-left: -110px;
+  margin-top: 50px;
+}
+
+.pnContainerAPI {
+  margin-top: 60px;
+}
+
+.pnFundoGps {
+  background-color: #f27405;
+  position: relative;
+  height: 500px;
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+.pnContainerGps img {
+  z-index: 1;
+  position: absolute;
+  top: -150px;
+  height: 800px;
+}
+
+.pnContainerGps {
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pnGpsDireita {
+  grid-column: 2;
+  display: grid;
   margin-top: 100px;
+}
+
+.pnGpsDireita h3 {
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.pnGpsDireita p {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  max-width: 30ch;
+  color: #fff;
+}
+
+.pnGpsBotao {
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  display: block;
+  justify-self: end;
+  margin-top: 40px;
+  margin-right: 100px;
 }
