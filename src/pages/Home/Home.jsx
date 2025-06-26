@@ -33,7 +33,7 @@ function Home() {
             Descubra paisagens incríveis, respire ar puro e viva aventuras que
             ficam na memória!
           </p>
-          <Link to="#" className="pnHomeBotaoUm">
+          <Link to="/Trilhas" className="pnHomeBotaoUm">
             Saiba Mais
           </Link>
         </div>
@@ -317,7 +317,7 @@ function Home() {
             <div className="pnContainerAPI">
               <div className="pnRotaEsquerda">
                 <h3 className="pnContainerAPITitulo">
-                  Pico do Mirante - Paranápiacaba
+                  Pico do Mirante - Paranapiacaba
                 </h3>
                 <iframe
                   src="https://www.google.com/maps/d/embed?mid=1uyxnw5SnPSDNnQ-AKLCAMpyoPhB-U5A&ehbc=2E312F&noprof=1"
@@ -399,7 +399,9 @@ function Home() {
               Com o GPS da Ponto Norte, você esta seguro em qualquer lugar,
               garanta já o seu!
             </p>
-            <Link className="pnGpsBotao">Saiba Mais</Link>
+            <Link to="/Plano" className="pnGpsBotao">
+              Saiba Mais
+            </Link>
           </div>
         </div>
       </section>
