@@ -22,7 +22,7 @@ li {
 }
 
 .pnHomeUm {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 50px auto;
   background: url('../../assets/planos/home.jpg');
   height: 600px;
@@ -73,6 +73,7 @@ li {
 .pnHomePtQuatrotitulo {
   margin-top: 20px;
 }
+
 .pnHomePtQuatroContainer {
   max-width: 1200px;
   margin: 0 auto;
@@ -124,6 +125,8 @@ li {
 
 .pnCardGuia {
   padding: 0px;
+  display: flex;
+  gap: 30px;
 }
 
 .pnDadosGuias p {
@@ -131,7 +134,6 @@ li {
   color: #fff;
   font-weight: 500;
 }
-
 .pnCardGuia p {
   text-align: center;
   justify-content: start;
@@ -139,7 +141,12 @@ li {
   font-weight: 500;
 }
 
-.pnCardGuia {
+.pnHomeStrelas img {
+  width: 20px;
+  height: 20px;
+}
+
+.pnHomeTresSuperior {
   display: flex;
   gap: 30px;
 }
