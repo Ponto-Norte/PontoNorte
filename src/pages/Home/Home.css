@@ -22,7 +22,7 @@ li {
 }
 
 .pnHomeUm {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 50px auto;
   background: url('../../assets/planos/home.jpg');
   height: 600px;
@@ -77,7 +77,7 @@ li {
 }
 
 .pnHomePtTresContainer {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .pnHomePtTrestitulo {
@@ -126,6 +126,11 @@ li {
   top: 30px;
   background-color: black;
   position: absolute;
+}
+
+.pnHomeStrelas img{
+  width: 20px;
+  height: 20px;
 }
 
 .pnHomeTresSuperior {
