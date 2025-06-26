@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
@@ -14,7 +14,7 @@ body{
   border-radius: 25px;
 }
 
-.pnFotoGuia{
+.pnFotoGuia {
   max-width: 100%;
   width: 300px;
   height: 300px;
@@ -26,7 +26,7 @@ body{
   padding: 0px;
 }
 
-.pnGuiaConteudoContainer{
+.pnGuiaConteudoContainer {
   background-color: #fff;
   max-width: 100%;
   width: 300px;
@@ -37,19 +37,20 @@ body{
   margin-top: -8px;
 }
 
-.pnGuiaConteudo{
+.pnGuiaConteudo {
   padding: 30px 20px;
   position: relative;
 }
 
-.pnGuiaConteudo h2{
+.pnGuiaConteudo h2 {
   color: #000;
   display: inline-block;
   border-bottom: 4px solid #365902;
 }
 
-.pnAvaliacaoGuia {
+.pnAvaliacaoGuia li {
   list-style: none;
+  display: grid;
   display: flex;
   padding: 0px;
   margin: 0px;

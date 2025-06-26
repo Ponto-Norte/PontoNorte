@@ -13,7 +13,7 @@ function Plano() {
 
         <div className="pn-container-planos">
           <div className="pn-conteudo-planos">
-            <h2>EVEREST</h2>
+            <h2 className="pnTituloPlanos">EVEREST</h2>
             <ul>
               <li>
                 <h3>GPS Ponto Norte</h3>

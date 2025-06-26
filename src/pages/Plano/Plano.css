@@ -55,6 +55,7 @@ li {
 
 .pn-conteudo-planos {
   margin-bottom: 0px;
+  gap: 50px;
   background-color: #fff;
   padding: 30px;
   max-width: 1300px;

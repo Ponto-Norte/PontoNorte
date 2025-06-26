@@ -54,6 +54,11 @@ p {
   object-fit: contain;
 }
 
+.ColorBack {
+  background-color: #fff;
+  margin: 0px;
+}
+
 /* Animação infinita */
 @keyframes scroll {
   0% {
