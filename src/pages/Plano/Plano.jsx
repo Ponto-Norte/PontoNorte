@@ -13,7 +13,9 @@ function Plano() {
 
         <div className="pn-container-planos">
           <div className="pn-conteudo-planos">
-            <h2 className="pnTituloPlanos">EVEREST</h2>
+            <h2 id="tituloPlanoEve" className="pnTituloPlanos">
+              EVEREST
+            </h2>
             <ul>
               <li>
                 <h3>GPS Ponto Norte</h3>
@@ -47,7 +49,9 @@ function Plano() {
               </li>
             </ul>
 
-            <a href="#">Assine já</a>
+            <a id="botaoEve" href="#">
+              Assine já
+            </a>
 
             <div className="imageUm"></div>
           </div>
@@ -56,7 +60,7 @@ function Plano() {
         <div id="laranja" className="pn-container-planos">
           <div className="pn-conteudo-planos-dois">
             <div className="imageDois"></div>
-            <h2>ANDES</h2>
+            <h2 id="tituloPlanoAnd">ANDES</h2>
             <ul>
               <li>
                 <h3>Suporte via Whatsapp</h3>
@@ -93,7 +97,7 @@ function Plano() {
         </div>
         <div id="amarelo" className="pn-container-planos">
           <div className="pn-conteudo-planos">
-            <h2>CHAPADA</h2>
+            <h2 id="tituloPlanoChap">CHAPADA</h2>
             <ul>
               <li>
                 <h3>Suporte via E-mail</h3>
@@ -115,7 +119,9 @@ function Plano() {
               </li>
             </ul>
 
-            <a href="#">Assine já</a>
+            <a id="botaoChap" href="#">
+              Assine já
+            </a>
 
             <div className="imageTres"></div>
           </div>
@@ -124,7 +130,7 @@ function Plano() {
         <div id="verde" className="pn-container-planos">
           <div className="pn-conteudo-planos-dois">
             <div className="imageQuatro"></div>
-            <h2>COLINA</h2>
+            <h2 id="tituloPlanoColi">COLINA</h2>
             <ul>
               <li>
                 <h3>Acesso às trilhas</h3>

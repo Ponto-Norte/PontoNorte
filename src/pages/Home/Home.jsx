@@ -16,7 +16,7 @@ import Header from '../../components/Header/Header';
 import Slide from '../../components/NossosParceiros/Slide';
 import gps from '../../assets/fotosHome/fotoGPS.png';
 import Footer from '../../components/Footer/Footer';
-import TrilhasNovas from '../../components/NovasTrilhas/TrilhasNovas';
+import NovasTrilhas from '../../components/NovasTrilhas/NovasTrilhas.jsx';
 
 function Home() {
   return (
@@ -39,7 +39,7 @@ function Home() {
         </div>
       </section>
 
-      <TrilhasNovas />
+      <NovasTrilhas />
 
       <article className="pnFundoTrilheiro">
         <div className="pnContainerTrilheiro">

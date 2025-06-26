@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import '../../components/NovasTrilhas/TrilhasNovas.css';
+import '../../components/NovasTrilhas/NovasTrilhas.css';
 import { motion } from 'framer-motion';
 
 import img1 from '../../assets/Trilhas/mirante.jpg';
