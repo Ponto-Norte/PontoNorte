@@ -7,8 +7,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.pnWallpaperGuias{
-  height: 400px;
+.pnWallpaperGuias {
+  height: 350px;
   background: url('../../assets/wallpaper.jpg');
   background-position: center;
   background-size: cover;
@@ -98,12 +98,9 @@ body {
 }
 
 .pnCardsGuias {
-  justify-content: center;
+  margin: 80px auto;
+  max-width: 1200px;
+  gap: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1300px;
-  margin: 0 auto;
-  gap: 80px;
-  padding: 50px 0px;
-  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
 }

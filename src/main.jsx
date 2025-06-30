@@ -1,12 +1,12 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import Rota from './App';
 
-import Home from './pages/Home/Home';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Home />
+      <Rota />
     </BrowserRouter>
   </StrictMode>,
 );

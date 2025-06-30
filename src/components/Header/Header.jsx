@@ -32,22 +32,22 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/Trilhas">
                     Trilhas
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/Guias">
                     Guias
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/Parceiros">
                     Parceiros
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/Plano">
                     Planos
                   </Link>
                 </li>

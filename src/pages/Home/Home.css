@@ -166,6 +166,7 @@ li {
 
 .pnStrelaGuias {
   margin-top: -10px;
+  display: flex;
 }
 
 .pnGuiaAlterna {
@@ -192,6 +193,11 @@ li {
 .pnContainerTrilheiro {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.pnFotoGuia {
+  width: 150px;
+  height: 150px;
 }
 
 .pnDadosTrilheiro {
@@ -275,6 +281,7 @@ li {
 }
 
 .avalia {
+  display: flex;
   position: absolute;
   margin-top: 5px;
   margin-left: -10px;
@@ -369,6 +376,7 @@ li {
 
 .avaliaRota {
   margin-left: -30px;
+  display: flex;
 }
 .avaliaRota img {
   width: 20px;
