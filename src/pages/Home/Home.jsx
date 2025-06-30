@@ -39,16 +39,6 @@ function Home() {
         </div>
       </section>
 
-<<<<<<< HEAD
-
-      <article className="pnHomePtTres">
-        <div children="pnHomePtTresContainer">
-          <div className="pnHomePtTrestitulo">
-            <h2>Compartilhe suas experiências</h2>
-      <TrilhasNovas />
-=======
-      <NovasTrilhas />
->>>>>>> 8c72b5563005a71b188c2a07d9538801ebe51022
 
       <article className="pnFundoTrilheiro">
         <div className="pnContainerTrilheiro">
