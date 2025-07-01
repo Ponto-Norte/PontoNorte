@@ -7,7 +7,7 @@ body{
   background-color: #f0f0f0;
 }
 
-.pnWallpaperPerguntasFrequentes {
+.pnWallpaperPerguntasFrequentesLogado {
   height: 350px;
   background: url('../../assets/fotoFaixaItemsFooter.png');
   background-position: center;
@@ -18,18 +18,18 @@ body{
   align-items: center;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo{
+.pnWallpaperPerguntasFrequentesLogadoConteudo{
   margin: 0px;
   padding: 0px;
   justify-items: center;
   align-content: center;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo p{
+.pnWallpaperPerguntasFrequentesLogadoConteudo p{
   color: #fff;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo h1{
+.pnWallpaperPerguntasFrequentesLogadoConteudo h1{
   color: #fff;
   font-size: 40px;
 }

@@ -7,7 +7,14 @@ body{
   background-color: #f0f0f0;
 }
 
-.pnWallpaperPerguntasFrequentes {
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.pnWallpaperLGPDLogado {
   height: 350px;
   background: url('../../assets/fotoFaixaItemsFooter.png');
   background-position: center;
@@ -18,19 +25,33 @@ body{
   align-items: center;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo{
+.pnWallpaperLGPDLogadoConteudo{
   margin: 0px;
   padding: 0px;
   justify-items: center;
   align-content: center;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo p{
+.pnWallpaperLGPDLogadoConteudo p{
   color: #fff;
 }
 
-.pnWallpaperPerguntasFrequentesConteudo h1{
+.pnWallpaperLGPDLogadoConteudo h1{
   color: #fff;
   font-size: 40px;
 }
 
+.pnLGPDLogadoConteudo{
+  margin: 0 auto;
+  padding: 50px 0px;
+  max-width: 780px;
+}
+
+.pnLGPDLogadoConteudo h2{
+  color: #000;
+}
+
+.pnLGPDLogadoConteudo p{
+  color: #000;
+  margin-top: 20px;
+}

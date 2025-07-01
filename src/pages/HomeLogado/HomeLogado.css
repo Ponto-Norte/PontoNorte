@@ -23,7 +23,7 @@ li {
   list-style: none;
 }
 
-.pnHomeUm {
+.pnHomeLogadoUm {
   max-width: 1300px;
   margin: 50px auto;
   background: url('../../assets/planos/home.jpg');
@@ -36,7 +36,7 @@ li {
   align-items: center;
 }
 
-.pnHomeUmConteudo {
+.pnHomeLogadoUmConteudo {
   background-color: rgba(255, 255, 255, 0.7);
   max-width: 570px;
   height: 250px;
@@ -47,14 +47,14 @@ li {
   align-items: center;
 }
 
-.pnHomeUmConteudo h1 {
+.pnHomeLogadoUmConteudo h1 {
   margin-top: 10px;
   font-size: 2.2rem;
   color: #f27405;
   line-height: 1.1;
 }
 
-.pnHomeUmConteudo p {
+.pnHomeLogadoUmConteudo p {
   max-width: 50ch;
   font-weight: 500;
   margin-bottom: 20px;
@@ -63,7 +63,7 @@ li {
   margin-top: 10px;
 }
 
-.pnHomeBotaoUm {
+.pnHomeLogadoBotaoUm {
   color: #fff;
   background-color: black;
   padding: 15px 30px;
@@ -72,37 +72,37 @@ li {
   justify-self: start;
 }
 
-.pnHomePtQuatrotitulo {
+.pnHomeLogadoPtQuatrotitulo {
   margin-top: 20px;
 }
 
-.pnHomePtQuatroContainer {
+.pnHomeLogadoPtQuatroContainer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 0px;
 }
-.pnHomePtQuatrotitulo {
+.pnHomeLogadoPtQuatrotitulo {
   justify-items: center;
 }
 
-.pnHomePtQuatrotitulo h2 {
+.pnHomeLogadoPtQuatrotitulo h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
   color: #fff;
 }
-.pnHomePtQuatrotitulo p {
+.pnHomeLogadoPtQuatrotitulo p {
   color: #fff;
   font-size: 1.2rem;
   max-width: 40ch;
   text-align: center;
 }
 
-.pnHomePtQuatro {
+.pnHomeLogadoPtQuatro {
   background-color: #365902;
 }
 
-.pnHomeQuartoAvaliacao li {
+.pnHomeLogadoQuartoAvaliacao li {
   justify-content: center;
 }
 
@@ -143,12 +143,12 @@ li {
   font-weight: 500;
 }
 
-.pnHomeStrelas img {
+.pnHomeLogadoStrelas img {
   width: 20px;
   height: 20px;
 }
 
-.pnHomeTresSuperior {
+.pnHomeLogadoTresSuperior {
   display: flex;
   gap: 30px;
 }
@@ -183,7 +183,7 @@ li {
   margin-top: -30px;
 }
 
-.pnHomeQuartoAvaliacao li {
+.pnHomeLogadoQuartoAvaliacao li {
   justify-content: center;
 }
 

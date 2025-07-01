@@ -56,7 +56,7 @@ function HeaderLogado() {
           </nav>
 
           <div className="pnHeaderPerfil">
-            <button><img width="24" height="24" src="https://img.icons8.com/material/24/user-male-circle--v1.png" alt="user-male-circle--v1"/></button>
+            <button><img width="40" height="40" src="https://img.icons8.com/material/40/user-male-circle--v1.png" alt="user-male-circle--v1"/></button>
           </div>
         </div>
       </header>
