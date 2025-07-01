@@ -1,20 +1,15 @@
-import '../PerguntasFrequentesComponete/PerguntasFrequentesComponete.css';
+import '../PerguntasFrequentesComponente/PerguntasFrequentesComponente.css';
 
-function Pergunta({ foto, nome, avaliacao, descricao, botao }) {
+function Pergunta({ pergunta, resposta }) {
   return (
-    <section>
+    <section className="pnPerguntasContainer">
       <div className="pnItemsPergunta">
-        <div className="pnPerguntaConteudoContainer">
-          <div className="pnPerguntaConteudo">
-            <h2>{nome}</h2>
-            <ul className="pnAvaliacaoGuia">
-              <li>{avaliacao}</li>
-            </ul>
-            <ul>
-              <li className="pnDescGuia">{descricao}</li>
-            </ul>
-            <button className="pnBotaoGuia"> {botao} </button>
-          </div>
+        <div className="pnPerguntaConteudo">
+          <h2>{pergunta}</h2>
+        </div>
+
+        <div className="pnRespostaConteudo">
+          <p>{resposta}</p>
         </div>
       </div>
     </section>

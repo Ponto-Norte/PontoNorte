@@ -1,4 +1,4 @@
-import '../Home/Home.css';
+import '../HomeLogado/HomeLogado.css';
 import { Link } from 'react-router-dom';
 import foto1 from '../../assets/usuarios/suario1/perfil.jpg';
 import natu from '../../assets/usuarios/suario1/natu.jpg';
@@ -12,18 +12,18 @@ import nature3 from '../../assets/usuarios/ususario 3/foto33.jpg';
 import foto4 from '../../assets/fotosHome/gAltQua1.png';
 import foto5 from '../../assets/fotosHome/gAltQua2.png';
 import foto6 from '../../assets/fotosHome/gAltQua3.png';
-import Header from '../../components/Header/Header';
+import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
 import Slide from '../../components/NossosParceiros/Slide';
 import gps from '../../assets/fotosHome/fotoGPS.png';
 import Footer from '../../components/Footer/Footer';
 
-function Home() {
+function HomeLogado() {
   return (
     <>
-      <Header />
+      <HeaderLogado />
 
-      <section className="pnHomeUm">
-        <div className="pnHomeUmConteudo">
+      <section className="pnHomeLogadoUm">
+        <div className="pnHomeLogadoUmConteudo">
           <h1>
             As melhores trilhas você
             <br /> encontra aqui !
@@ -32,7 +32,7 @@ function Home() {
             Descubra paisagens incríveis, respire ar puro e viva aventuras que
             ficam na memória!
           </p>
-          <Link to="/Trilhas" className="pnHomeBotaoUm">
+          <Link to="/Trilhas" className="pnHomeLogadoBotaoUm">
             Saiba Mais
           </Link>
         </div>
@@ -407,4 +407,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeLogado;

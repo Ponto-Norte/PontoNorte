@@ -1,18 +1,18 @@
-import '../Trilhas/Trilhas.css';
+import '../TrilhasLogado/TrilhasLogado.css';
 import { Link } from 'react-router-dom';
-import Header from '../../components/Header/Header';
+import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
 import Footer from '../../components/Footer/Footer';
 import CardTrilha from '../../components/CardTrilha/CardTrilha';
 
-function Trilhas() {
+function TrilhasLogado() {
   return (
     <>
-      <Header />
-      <div className="pnTrilhasWallpaper">
+      <HeaderLogado />
+      <div className="pnTrilhasLogadoWallpaper">
         <h1>Sinta a natureza</h1>
       </div>
 
-      <section className="pnTrilhasPesquisa">
+      <section className="pnTrilhasLogadoPesquisa">
         <div>
           <ul>
             <li>
@@ -33,7 +33,7 @@ function Trilhas() {
           </ul>
         </div>
 
-        <div className="pnTrilhasAreaPesquisa">
+        <div className="pnTrilhasLogadoAreaPesquisa">
           <input
             type="text"
             placeholder="Digite o nome da sua Trilha"
@@ -45,14 +45,14 @@ function Trilhas() {
         </div>
       </section>
 
-      <div className="pnTrilhasFiltro">
+      <div className="pnTrilhasLogadoFiltro">
         <h3>Trilhas Longas</h3>
-        <Link className="pnTrilhasLocal" to="/">
+        <Link className="pnTrilhasLogadoLocal" to="/">
           Usar minha Localização
         </Link>
       </div>
 
-      <section className="pnTrilhasConteudo">
+      <section className="pnTrilhasLogadoConteudo">
         <CardTrilha
           titulo="Pico do mirante"
           local="Paranapiacaba"
@@ -82,4 +82,4 @@ function Trilhas() {
   );
 }
 
-export default Trilhas;
+export default TrilhasLogado;

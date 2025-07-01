@@ -1,22 +1,22 @@
-import '../PerguntasFrequentes/PerguntasFrequentes.css';
+import '../PerguntasFrequentesLogado/PerguntasFrequentesLogado.css';
 import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
+import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
 import Pergunta from '../../components/PerguntasFrequentesComponente/PerguntasFrequentesComponente';
 
-function PerguntasFrequentesTela() {
+function PerguntasFrequentesLogadoTela() {
   return (
     <>
-      <Header />
-      <main className="pnPerguntasFrequentes">
-        <div className="pnWallpaperPerguntasFrequentes">
-          <div className="pnWallpaperPerguntasFrequentesConteudo">
+      <HeaderLogado />
+      <main className="pnPerguntasFrequentesLogado">
+        <div className="pnWallpaperPerguntasFrequentesLogado">
+          <div className="pnWallpaperPerguntasFrequentesLogadoConteudo">
             <p>PRIVACIDADE</p>
             <h1>Trilhe com confiança</h1>
           </div>
         </div>
 
-        <section className="pnPerguntasFrequentesConteudoContainer">
-          <section className="pnPerguntasFrequentesConteudo">
+        <section className="pnPerguntasFrequentesLogadoConteudoContainer">
+          <section className="pnPerguntasFrequentesLogadoConteudo">
             <Pergunta
               pergunta="O que é a Ponto Norte?"
               resposta="A Ponto Norte é uma Plataforma Web com intuito de conectar pessoas a trilheiros profissionais (guias especializados) para realizarem trilhas de forma confiável e segura."
@@ -53,4 +53,4 @@ function PerguntasFrequentesTela() {
   );
 }
 
-export default PerguntasFrequentesTela;
+export default PerguntasFrequentesLogadoTela;

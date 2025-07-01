@@ -2,15 +2,15 @@ import '../CardTrilha/CardTrilha.css';
 import claro from '../../assets/wallpaper.jpg';
 import { Link } from 'react-router-dom';
 
-function CardTrilha() {
+function CardTrilha({ titulo, local, texto, distancia, altura }) {
   return (
     <article className="pnCardTrilhasFoto">
       <img id="pnCardTrilhaFoto" src={claro} alt="" />
       <section className="pnCardTrilhasContainer">
         <div className="pnCardTrilhasDados">
-          <h3>Trilha Riacho Grande</h3>
+          <h3>{titulo}</h3>
           <ul className="pnCardTrilhasLocalizacao">
-            <li>Ubatuba</li>
+            <li>{local}</li>
 
             <li id="CardAvaliacao">
               <img
@@ -47,17 +47,14 @@ function CardTrilha() {
           </ul>
 
           <div className="pnCardTrilhasPrevia">
-            <p>
-              Trilha desafiadora em Ubatuba com belas praias, ideal entre maio e
-              agosto.
-            </p>
+            <p>{texto}</p>
           </div>
           <ul className="pnCardTrilhasDistancia">
             <li>
-              Distância <span>15,8Km ida e volta</span>{' '}
+              Distância <span>{distancia} ida e volta</span>{' '}
             </li>
             <li>
-              Elevação <span>599 metros</span>
+              Elevação <span>{altura} metros</span>
             </li>
           </ul>
 
