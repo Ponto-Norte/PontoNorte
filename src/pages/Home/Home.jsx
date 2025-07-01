@@ -41,7 +41,7 @@ function Home() {
       <article className="pnFundoTrilheiro">
         <div className="pnContainerTrilheiro">
           <div className="pnDadosTrilheiro">
-            <h2>Compartilhe suas experiênciass</h2>
+            <h2>Compartilhe suas experiências</h2>
             <p>
               Comente, faça postagens sobre suas aventuras e interaja com outros
               usuários.
