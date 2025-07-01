@@ -17,7 +17,7 @@ import HeaderLogado from './components/HeaderLogado/HeaderLogado';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <HomeLogado />
+      <Rota />
     </BrowserRouter>
   </StrictMode>,
 );
