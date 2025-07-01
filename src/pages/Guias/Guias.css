@@ -100,7 +100,7 @@ body {
 .pnCardsGuias {
   margin: 80px auto;
   max-width: 1200px;
-  gap: 20px;
+  gap: 40px 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

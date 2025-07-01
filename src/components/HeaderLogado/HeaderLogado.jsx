@@ -1,8 +1,15 @@
 import '../HeaderLogado/HeaderLogado.css';
 import { Link } from 'react-router-dom';
 import pnLogo from '../../assets/pnLogo.svg';
+import { useState } from 'react';
 
 function HeaderLogado() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup)
+  };
+
   return (
     <div>
       <header className="pnHeader">
@@ -56,7 +63,15 @@ function HeaderLogado() {
           </nav>
 
           <div className="pnHeaderPerfil">
-            <button><img width="40" height="40" src="https://img.icons8.com/material/40/user-male-circle--v1.png" alt="user-male-circle--v1"/></button>
+            <button onClick={togglePopup}>
+              <img width="40" height="40" src="https://img.icons8.com/material/40/user-male-circle--v1.png" alt="user-male-circle--v1"/>
+            </button>
+            {showPopup &&(
+              <div className="pnPopup">
+                <button className='pnPopupSairConta'>Sair</button>
+                <button className='pnPopupSairConta'>Excluir Conta</button>
+              </div>
+            )}
           </div>
         </div>
       </header>

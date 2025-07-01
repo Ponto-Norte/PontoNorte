@@ -1,14 +1,13 @@
 import '../../components/CardGuias/CardGuias.css';
-import claro from '../../assets/fotosHome/fotoGPS.png';
 import { Link } from 'react-router-dom';
 
-function CardGuias() {
+function CardGuias({ nome, texto, foto }) {
   return (
     <article className="pnCardGuiasFoto">
-      <img id="pnCardGuiaFoto" src={claro} alt="" />
+      <img id="pnCardGuiaFoto" src={foto} alt="" />
       <section className="pnCardGuiaContainer">
         <div className="pnCardGuiaDados">
-          <h3>Jonas Almeida</h3>
+          <h3>{nome}</h3>
           <ul className="pnCardGuiaLocalizacao">
             <li id="CardAvaliacao">
               <img
@@ -45,10 +44,7 @@ function CardGuias() {
           </ul>
 
           <div className="pnCardGuiaPrevia">
-            <p>
-              Trilha desafiadora em Ubatuba com belas praias, ideal entre maio e
-              agosto.
-            </p>
+            <p>{texto}</p>
           </div>
 
           <Link id="pnCardGuiaBotao" to="/">
