@@ -53,14 +53,29 @@ function Trilhas() {
       </div>
 
       <section className="pnTrilhasConteudo">
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
-        <CardTrilha />
+        <CardTrilha
+          titulo="Pico do mirante"
+          local="Paranapiacaba"
+          texto=" É uma trilha fácil de ser percorrida, que acompanha a encosta da serra por dentro da mata."
+          distancia="3.01Km"
+          altura="816m"
+        />
+
+        <CardTrilha
+          titulo="Pico do mirante"
+          local="Paranapiacaba"
+          texto=" É uma trilha fácil de ser percorrida, que acompanha a encosta da serra por dentro da mata."
+          distancia="3.01Km"
+          altura="816m"
+        />
+
+        <CardTrilha
+          titulo="Pico do mirante"
+          local="Paranapiacaba"
+          texto=" É uma trilha fácil de ser percorrida, que acompanha a encosta da serra por dentro da mata."
+          distancia="3.01Km"
+          altura="816m"
+        />
       </section>
       <Footer />
     </>
