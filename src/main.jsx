@@ -14,8 +14,7 @@ import GuiasLogado from './pages/GuiasLogado/GuiasLogado';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      {/* <Rota /> */}
-      <PlanosLogado />
+      <Rota />
     </BrowserRouter>
   </StrictMode>,
 );
