@@ -7,7 +7,7 @@ body{
   background-color: #f0f0f0;
 }
 
-.pnWallpaperLGPD {
+.pnWallpaperTermosPrivacidadeLogado {
   height: 350px;
   background: url('../../assets/fotoFaixaItemsFooter.png');
   background-position: center;
@@ -18,33 +18,33 @@ body{
   align-items: center;
 }
 
-.pnWallpaperLGPDConteudo{
+.pnWallpaperTermosPrivacidadeLogadoConteudo{
   margin: 0px;
   padding: 0px;
   justify-items: center;
   align-content: center;
 }
 
-.pnWallpaperLGPDConteudo p{
+.pnWallpaperTermosPrivacidadeLogadoConteudo p{
   color: #fff;
 }
 
-.pnWallpaperLGPDConteudo h1{
+.pnWallpaperTermosPrivacidadeLogadoConteudo h1{
   color: #fff;
   font-size: 40px;
 }
 
-.pnLGPDConteudo{
+.pnTermosPrivacidadeLogadoConteudo{
   margin: 0 auto;
   padding: 50px 0px;
-  max-width: 780px;
+  max-width: 600px;
 }
 
-.pnLGPDConteudo h2{
-  color: #000;
-}
-
-.pnLGPDConteudo p{
+.pnTermosPrivacidadeLogadoConteudo h2{
   color: #000;
   margin-top: 20px;
+}
+
+.pnTermosPrivacidadeLogadoConteudo h3{
+  margin-top: 10px;
 }

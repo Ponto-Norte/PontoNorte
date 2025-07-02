@@ -10,6 +10,10 @@ import ParceirosLogado from './pages/ParceirosLogado/ParceirosLogado';
 import LGPDLogadoTela from './pages/LGPDLogado/LGPDLogado';
 import HomeLogado from './pages/HomeLogado/HomeLogado';
 import GuiasLogado from './pages/GuiasLogado/GuiasLogado';
+import TermosPrivacidadeTela from './pages/TermosPrivacidade/TermosPrivacidade';
+import TermosPrivacidadeLogadoTela from './pages/TermosPrivacidadeLogado/TermosPrivacidadeLogado';
+import HeaderLogado from './components/HeaderLogado/HeaderLogado';
+import TrilhaSelecionadaTela from './pages/TrilhaSelecionada/TrilhaSelecionada';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

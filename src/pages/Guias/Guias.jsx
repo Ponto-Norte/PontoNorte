@@ -98,7 +98,7 @@ function Guias() {
 
           <CardGuias
             nome="Suzana de Santos"
-            texto="Cachoeiras são meu ponto fraco! Curto criar roteiros divertidos e refrescantes."
+            texto="Cachoeiras são meu ponto forte! Curto criar roteiros divertidos e refrescantes."
             foto={suzana}
           />
 
