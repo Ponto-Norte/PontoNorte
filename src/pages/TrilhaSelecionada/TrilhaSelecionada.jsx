@@ -1,6 +1,12 @@
 import '../TrilhaSelecionada/TrilhaSelecionada.css';
 import Footer from '../../components/Footer/Footer';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
+import Foto1 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaFotosImgsEsq1.png';
+import Foto2 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaFotosImgsDir1.png';
+import Foto3 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaFotosImgsDir2.png';
+import Foto4 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaFotosImgsDir3.png';
+import Foto5 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaGuiasCardGuia1Img.png';
+import Foto6 from '../../assets/pnFotosTrilhaAcessada/pnTrilhaGuiasCardGuia2Img.png';
 
 function TrilhaSelecionadaTela() {
   return (
@@ -19,14 +25,108 @@ function TrilhaSelecionadaTela() {
               <div className="pnTrilhaFotosTitulo">
                 <h2>Fotos da trilha</h2>
               </div>
-              <div className="pnTrilhasFotosImgs"></div>
+              <div className="pnTrilhaFotosImgs">
+                <div className="pnTrilhaFotosImgsEsq">
+                  <li className="pnTrilhaFotosImgsEsq1"> <img src={Foto1} /></li>
+                </div>
+                <div className="pnTrilhaFotosImgsDir">
+                  <li className="pnTrilhaFotosImgsDir1"><img src={Foto2} /></li>
+                  <li className="pnTrilhaFotosImgsDir2"><img src={Foto3} /></li>
+                  <li className="pnTrilhaFotosImgsDir3"><img src={Foto4} /></li>
+                </div>
+              </div>
             </div>
 
             <div className="pnTrilhaGuias">
-              <div className="pnTrilhasGuiasTitulo">
+              <div className="pnTrilhaGuiasTitulo">
                 <h2>Guias</h2>
               </div>
-              <div className="pnTrilhaGuiasCard"></div>
+              <div className="pnTrilhaGuiasCard">
+                <div className="pnTrilhaGuiasCardConteudo">
+                  <div className="pnTrilhaGuiasCardTexto">
+                    <h3>Gostou da trilha?</h3>
+                    <p>Contrate um guia agora mesmo</p>
+                  </div>
+                  <div className="pnTrilhaGuiasCardGuia1">
+                    <div className="pnTrilhaGuiasCardGuia1Img">
+                      <img src={Foto5} />
+                    </div>
+                    <div className="pnTrilhaGuiasCardGuia1Nome">
+                      <h3>Jonas Almeida</h3>
+                      <div className="pnTrilhaGuiasCardGuia1Avaliacao">
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                    </div>
+                    </div>
+                    
+                  </div>
+                  <div className="pnTrilhaGuiasCardGuia2">
+                    <div className="pnTrilhaGuiasCardGuia2Img">
+                      <img src={Foto6} />
+                    </div>
+                    <div className="pnTrilhaGuiasCardGuia2Nome">
+                      <h3>Julia Oliveira</h3>
+                      <div className="pnTrilhaGuiasCardGuia2Avaliacao">
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                      <img
+                        className="pnTrilheiroStar"
+                        src="https://img.icons8.com/fluency/30/star--v1.png"
+                        alt=""
+                      />
+                    </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <div className="pnTrilhaGuiasCardBtnContainer">
+                    <button className='pnTrilhaGuiasCardBtn'>Ver Guias</button>
+                  </div>
+                  
+
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -50,27 +150,25 @@ function TrilhaSelecionadaTela() {
                 nativa, campos abertos e mirantes naturais, com elevações que
                 variam entre 581 m e 834 m. Essa variação garante paisagens
                 diversificadas e vistas panorâmicas ao longo do caminho,
-                especialmente nos pontos mais altos. 
+                especialmente nos pontos mais altos.
                 <br />
                 <br />
-                Com mais de 3.000 visitas
-                registradas, é uma trilha bastante conhecida e frequentada, mas
-                ainda preserva a tranquilidade de ambientes pouco explorados.
-                Não é necessário guia, o que a torna uma boa opção para grupos
-                autônomos e entusiastas que preferem planejar o trajeto por
-                conta própria — sempre com responsabilidade e atenção à
-                sinalização. 
+                Com mais de 3.000 visitas registradas, é uma trilha bastante
+                conhecida e frequentada, mas ainda preserva a tranquilidade de
+                ambientes pouco explorados. Não é necessário guia, o que a torna
+                uma boa opção para grupos autônomos e entusiastas que preferem
+                planejar o trajeto por conta própria — sempre com
+                responsabilidade e atenção à sinalização.
                 <br />
                 <br />
-                Prepare-se para uma jornada rica em biodiversidade,
-                silêncio e ar puro, com a dose certa de esforço físico e
-                recompensa visual.
+                Prepare-se para uma jornada rica em biodiversidade, silêncio e
+                ar puro, com a dose certa de esforço físico e recompensa visual.
               </p>
             </div>
           </div>
         </section>
 
-        <section className='pnTrilhaInfo'> 
+        <section className="pnTrilhaInfo">
           <div className="pnTrilhaInfoTitulo">
             <h2>Informações da Trilha</h2>
           </div>
@@ -89,31 +187,37 @@ function TrilhaSelecionadaTela() {
           </div>
         </section>
 
-        <section className='pnTrilhaEqp'>
+        <section className="pnTrilhaEqp">
           <div className="pnTrilhaEqpTitulo">
             <h2>Equipamentos Recomendados</h2>
           </div>
 
           <div className="pnTrilhaEqpConteudoContainer">
-            <div className="pnTrilhaEqpConteudo1">
-              <p>Botas: Recomendado</p>
-              <p>Bastão Trekking: Opcional</p>
-              <p>Barraca: Não</p>
+            <div className="pnTrilhaConteudoContainerItems">
+              <div className="pnTrilhaEqpConteudo1">
+              <ul>
+                <li><p>Botas: Recomendado</p></li>
+                <li><p>Bastão Trekking: Opcional</p></li>
+                <li><p>Barraca: Não</p></li>
+              </ul>
             </div>
             <div className="pnTrilhaEqpConteudo2">
-              <p>Mochila: Obrigatório</p>
-              <p>Cantil: Obrigatório</p>
-              <p>Lanterna: Não</p>
+              <ul>
+              <li><p>Mochila: Obrigatório</p></li>
+              <li><p>Cantil: Obrigatório</p></li>
+              <li><p>Lanterna: Não</p></li>
+              </ul>
             </div>
             <div className="pnTrilhaEqpConteudo3">
-              <p>Fogareiro: Opcional</p>
-              <p>Tênis Anfíbio: Opcional</p>
-              <p>Pilhas: Não</p>
+              <ul><li><p>Fogareiro: Opcional</p></li>
+              <li><p>Tênis Anfíbio: Opcional</p></li>
+              <li><p>Pilhas: Não</p></li></ul>
+            </div>
             </div>
           </div>
         </section>
 
-        <section className='pnTrilhaTrajeto'>
+        <section className="pnTrilhaTrajeto">
           <div className="pnTrilhaTrajetoConteudoContainer">
             <div className="pnTrilhaTrajetoConteudo">
               <div className="pnTrilhaTrajetoTitulo">
@@ -129,9 +233,6 @@ function TrilhaSelecionadaTela() {
             </div>
           </div>
         </section>
-
-        
-
       </main>
       <Footer />
     </>
