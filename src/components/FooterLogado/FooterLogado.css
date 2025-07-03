@@ -52,12 +52,7 @@ li {
   gap: 10px;
 }
 
-.pnRedesSociais img {
-  width: 30px;
-}
-
 .pnInfoMarca {
-  max-width: 100%;
   display: block;
   justify-content: center;
   align-content: start;
@@ -88,8 +83,4 @@ li {
 .pnFooterColum h2,
 li {
   margin-bottom: 20px;
-}
-
-#logoPnFooter {
-  max-width: 320px;
 }

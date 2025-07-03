@@ -1,6 +1,6 @@
 import '../RegistroOpcoes/RegistroOpcoes.css';
 import PontoNorteLogo from '../../assets/LogoTelasEntrada.svg';
-
+import { Link } from 'react-router-dom';
 function RegistroOpcoesTela(){
   return (
     <>
@@ -15,10 +15,11 @@ function RegistroOpcoesTela(){
           <section className='pnRegistroOpcDireito'>
               <div className="pnRegistroOpcConteudo">
                 <h1>Registrar</h1>
-                <button className='pnRegistroOpcBtn1' type="submit">Registrar Trilheiro</button>
-                <button className='pnRegistroOpcBtn2' type="submit">Registrar Guia</button>
+                 <Link to="/RegistroTrilheiro">
+                <button className='pnRegistroOpcBtn1' type="submit">Registrar Trilheiro</button></Link>
+                <Link to="/RegistroGuiaTela"><button className='pnRegistroOpcBtn2' type="submit">Registrar Guia</button></Link>
                 <div className="pnRegistroOpcLinkVoltar">
-                  <a href="">Voltar</a>
+                 <Link to="/"> <a href="">Voltar</a></Link>
                 </div>
               </div>
            

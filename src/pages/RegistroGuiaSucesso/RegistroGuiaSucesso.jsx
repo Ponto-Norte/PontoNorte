@@ -1,6 +1,6 @@
 import '../RegistroGuiaSucesso/RegistroGuiaSucesso.css';
 import PontoNorteLogo from '../../assets/LogoTelasEntrada.svg';
-
+import { Link} from 'react-router-dom';
 function RegistroGuiaSucessoTela(){
   return (
     <>
@@ -18,8 +18,8 @@ function RegistroGuiaSucessoTela(){
                 <h1>Registrar Guia</h1>
 
                 <h2>Guia registrado com sucesso!</h2>
-
-                <button className='pnRegistrarGuiaSucessoButton' type="submit">Voltar para o início</button>
+                <Link to="/LoginTela">
+                <button className='pnRegistrarGuiaSucessoButton' type="submit">Voltar para Login</button></Link>
                 
               </div>
 

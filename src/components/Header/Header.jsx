@@ -56,10 +56,10 @@ function Header() {
           </nav>
 
           <div className="pnHeaderDados">
-            <Link id="entrar" to="#">
+            <Link id="entrar" to="/LoginTela">
               Entrar
             </Link>
-            <Link id="cadastrar" to="#">
+            <Link id="cadastrar" to="/RegistroOpcoesTela">
               Cadastre-se
             </Link>
           </div>

@@ -34,27 +34,27 @@ function HeaderLogado() {
             <nav aria-label="navegação primaria">
               <ul className="pnHeaderNavMenu">
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/HomeLogado">
                     Início
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/TrilhasLogado">
                     Trilhas
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/GuiasLogado">
                     Guias
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/ParceirosLogado">
                     Parceiros
                   </Link>
                 </li>
                 <li>
-                  <Link className="pnHeaderLink" to="/">
+                  <Link className="pnHeaderLink" to="/PlanosLogado">
                     Planos
                   </Link>
                 </li>
@@ -68,7 +68,8 @@ function HeaderLogado() {
             </button>
             {showPopup &&(
               <div className="pnPopup">
-                <button className='pnPopupSairConta'>Sair</button>
+                <Link to="/">
+                <button className='pnPopupSairConta'>Sair</button></Link>
                 <button className='pnPopupSairConta'>Excluir Conta</button>
               </div>
             )}

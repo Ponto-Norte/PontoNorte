@@ -1,7 +1,7 @@
 import '../TrilhasLogado/TrilhasLogado.css';
 import { Link } from 'react-router-dom';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
-import Footer from '../../components/Footer/Footer';
+import FooterLogado from '../../components/FooterLogado/FooterLogado';
 import CardTrilha from '../../components/CardTrilha/CardTrilha';
 
 function TrilhasLogado() {
@@ -77,7 +77,7 @@ function TrilhasLogado() {
           altura="816m"
         />
       </section>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }

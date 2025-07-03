@@ -15,7 +15,7 @@ import foto6 from '../../assets/fotosHome/gAltQua3.png';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
 import Slide from '../../components/NossosParceiros/Slide';
 import gps from '../../assets/fotosHome/fotoGPS.png';
-import Footer from '../../components/Footer/Footer';
+import FooterLogado from '../../components/FooterLogado/FooterLogado';
 
 function HomeLogado() {
   return (
@@ -396,13 +396,13 @@ function HomeLogado() {
               Com o GPS da Ponto Norte, você esta seguro em qualquer lugar,
               garanta já o seu!
             </p>
-            <Link to="/Plano" className="pnGpsBotao">
+            <Link to="/PlanosLogado" className="pnGpsBotao">
               Saiba Mais
             </Link>
           </div>
         </div>
       </section>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }

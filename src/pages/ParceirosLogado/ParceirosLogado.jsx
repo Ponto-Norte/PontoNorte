@@ -1,7 +1,7 @@
 import '../ParceirosLogado/ParceirosLogado.css';
 import lume from '../../assets/parceiros/LogoLume.png';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
-import Footer from '../../components/Footer/Footer';
+import FooterLogado from '../../components/FooterLogado/FooterLogado';
 import { Link } from 'react-router-dom';
 
 function ParceirosLogado() {
@@ -84,7 +84,7 @@ function ParceirosLogado() {
           </div>
         </section>
       </section>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }

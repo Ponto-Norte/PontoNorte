@@ -1,29 +1,25 @@
 import PontoNorteLogo from '../../assets/PontoNorteLogo.png';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import './FooterLogado.css';
 
-function FooterPontoNorte() {
+function FooterLogado() {
   return (
     <footer className="pnFooterSite">
       <div className="pnFooterContainer">
         <div className="pnInfoMarca">
-          <img
-            id="logoPnFooter"
-            src={PontoNorteLogo}
-            alt="Logo da Ponto Norte"
-          />
+          <img src={PontoNorteLogo} alt="Logo da Ponto Norte" />
         </div>
         <div className="pnFooterColum">
           <h2>Plataforma</h2>
           <ul>
             <li>
-              <Link to="/Trilhas">Trilhas</Link>
+              <Link to="/TrilhasLogado">Trilhas </Link>
             </li>
             <li>
-              <Link to="/Plano">Planos</Link>
+              <Link to="/PlanosLogado">Planos </Link>
             </li>
             <li>
-              <Link to="/Guias">Guias</Link>
+              <Link to="/GuiasLogado">Guias </Link>
             </li>
           </ul>
         </div>
@@ -97,4 +93,4 @@ function FooterPontoNorte() {
   );
 }
 
-export default FooterPontoNorte;
+export default FooterLogado;

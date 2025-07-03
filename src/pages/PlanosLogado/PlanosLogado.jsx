@@ -1,6 +1,6 @@
 import '../PlanosLogado/PlanosLogado.css';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
-import Footer from '../../components/Footer/Footer';
+import FooterLogado from '../../components/FooterLogado/FooterLogado';
 
 function PlanosLogado() {
   return (
@@ -158,7 +158,7 @@ function PlanosLogado() {
           </div>
         </div>
       </section>
-      <Footer />
+      <FooterLogado />
     </div>
   );
 }
