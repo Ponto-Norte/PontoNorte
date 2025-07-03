@@ -49,7 +49,7 @@ function GuiasLogado() {
           <CardGuias/>
         </section>
       </main>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }

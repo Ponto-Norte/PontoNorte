@@ -158,7 +158,7 @@ function PlanosLogado() {
           </div>
         </div>
       </section>
-      <Footer />
+      <FooterLogado />
     </div>
   );
 }

@@ -77,7 +77,7 @@ function TrilhasLogado() {
           altura="816m"
         />
       </section>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }

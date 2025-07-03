@@ -84,7 +84,7 @@ function ParceirosLogado() {
           </div>
         </section>
       </section>
-      <Footer />
+      <FooterLogado />
     </>
   );
 }
