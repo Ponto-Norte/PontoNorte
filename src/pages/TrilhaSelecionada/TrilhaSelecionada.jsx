@@ -15,7 +15,7 @@ function TrilhaSelecionadaTela() {
       <main className="pnTrilhaSelecionada">
         <div className="pnWallpaperTrilhaSelecionada">
           <div className="pnWallpaperTrilhaSelecionadaConteudo">
-            <h1>Trilha do Riacho Grande</h1>
+            <h1>Trilha Pico do Mirante</h1>
           </div>
         </div>
 
@@ -139,30 +139,12 @@ function TrilhaSelecionadaTela() {
           <div className="pnTrilhaDescConteudoContainer">
             <div className="pnTrilhaDescConteudo">
               <p>
-                Com 18,04 km de extensão, essa trilha é ideal para aventureiros
-                em busca de contato intenso com a natureza, sem exigir
-                experiência avançada. O percurso apresenta dificuldade moderada,
-                sendo indicado para praticantes com bom condicionamento físico
-                ou iniciantes dispostos a encarar um desafio estimulante.
+                A Trilha do Pico do Mirante, em Paranapiacaba, tem cerca de 4,8 km (ida e volta) e é considerada de dificuldade leve a moderada, com subidas constantes e ganho de elevação de cerca de 240 metros. O percurso começa na vila, segue por um antigo estradão de terra e avança por trechos de Mata Atlântica, passando por pontos históricos como ruínas da TV Tupi e a Pedra do Índio. O mirante, a cerca de 1.000 metros de altitude, oferece uma vista ampla da Serra do Mar, Baixada Santista e do mar, sendo um local muito procurado para fotos e contemplação.
                 <br />
                 <br />
-                Durante o trajeto, os caminhantes percorrem trechos de floresta
-                nativa, campos abertos e mirantes naturais, com elevações que
-                variam entre 581 m e 834 m. Essa variação garante paisagens
-                diversificadas e vistas panorâmicas ao longo do caminho,
-                especialmente nos pontos mais altos.
+                O acesso à trilha só é permitido com guias ou monitores autorizados, por exigência da administração local. O trajeto é bem marcado, mas exige atenção em alguns trechos com pedras e terra. É recomendável usar calçado adequado, levar água, lanche, protetor solar e repelente, além de evitar datas de grande movimento para melhor aproveitar a experiência e ajudar na preservação do ambiente.
                 <br />
                 <br />
-                Com mais de 3.000 visitas registradas, é uma trilha bastante
-                conhecida e frequentada, mas ainda preserva a tranquilidade de
-                ambientes pouco explorados. Não é necessário guia, o que a torna
-                uma boa opção para grupos autônomos e entusiastas que preferem
-                planejar o trajeto por conta própria — sempre com
-                responsabilidade e atenção à sinalização.
-                <br />
-                <br />
-                Prepare-se para uma jornada rica em biodiversidade, silêncio e
-                ar puro, com a dose certa de esforço físico e recompensa visual.
               </p>
             </div>
           </div>
@@ -175,13 +157,13 @@ function TrilhaSelecionadaTela() {
 
           <div className="pnTrilhaInfoConteudoContainer">
             <div className="pnTrilhaInfoConteudo1">
-              <p>Distância: 18.04km</p>
-              <p>Elevação Máxima: 834m</p>
-              <p>Elevação Mínima: 581m</p>
+              <p>Distância: 4.8km</p>
+              <p>Elevação Máxima: 1000m</p>
+              <p>Elevação Mínima: 830m</p>
             </div>
             <div className="pnTrilhaInfoConteudo2">
               <p>Visitas: 3.298</p>
-              <p>Guia Obrigatório: Não</p>
+              <p>Guia Obrigatório: Sim</p>
               <p>Dificuldade: Moderada</p>
             </div>
           </div>
@@ -209,8 +191,8 @@ function TrilhaSelecionadaTela() {
               </ul>
             </div>
             <div className="pnTrilhaEqpConteudo3">
-              <ul><li><p>Fogareiro: Opcional</p></li>
-              <li><p>Tênis Anfíbio: Opcional</p></li>
+              <ul><li><p>Fogareiro: Não</p></li>
+              <li><p>Tênis Anfíbio: Não</p></li>
               <li><p>Pilhas: Não</p></li></ul>
             </div>
             </div>
