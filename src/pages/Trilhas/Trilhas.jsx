@@ -36,18 +36,18 @@ function Trilhas() {
         <div>
           <ul>
             <li>
-              <Link id="pnTeste" to="/">
-                <p> Trilhas Longas</p>
+              <Link id="pnTeste" to="/Trilhas">
+                <p id="longa"> Trilhas Longas</p>
               </Link>
             </li>
             <li>
-              <Link id="pnTeste" to="/">
-                <p>Trilhas Médias</p>
+              <Link id="pnTeste" to="/TrilhasMedias">
+                <p id="media">Trilhas Médias</p>
               </Link>
             </li>
             <li>
-              <Link id="pnTeste" to="/">
-                <p>Trilhas Curtas</p>
+              <Link id="pnTeste" to="/TrilhasCurtas">
+                <p id="curta">Trilhas Curtas</p>
               </Link>
             </li>
           </ul>

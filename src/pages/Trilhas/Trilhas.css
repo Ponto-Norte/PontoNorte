@@ -72,8 +72,20 @@ li {
   border-bottom: 2px solid transparent;
 }
 
-#pnTeste p:hover {
+#pnTeste p {
+  border-bottom: 2px solid transparent;
+}
+
+#longa:hover {
+  border-bottom: 2px solid #f2b705;
+}
+
+#media:hover {
   border-bottom: 2px solid #f27405;
+}
+
+#curta:hover {
+  border-bottom: 2px solid #365902;
 }
 
 .pnTrilhasAreaPesquisa button {

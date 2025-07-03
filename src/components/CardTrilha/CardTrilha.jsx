@@ -57,7 +57,7 @@ function CardTrilha({ titulo, local, texto, distancia, altura, imagem }) {
             </li>
           </ul>
 
-          <Link id="pnCardTrilhasBotao" to="/">
+          <Link id="pnCardTrilhasBotao" to="/TrilhaSelecionada">
             Conhecer
           </Link>
         </div>
