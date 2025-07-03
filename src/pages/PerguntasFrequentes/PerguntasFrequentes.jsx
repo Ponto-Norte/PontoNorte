@@ -2,8 +2,16 @@ import '../PerguntasFrequentes/PerguntasFrequentes.css';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Pergunta from '../../components/PerguntasFrequentesComponente/PerguntasFrequentesComponente';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function PerguntasFrequentesTela() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Header />

@@ -52,6 +52,11 @@ li {
   margin-bottom: 15px;
 }
 
+#tamanho {
+  font-size: 0.875rem;
+  color: #5e5e5e;
+}
+
 .pnCardTrilhasDados {
   display: grid;
   align-content: start;
@@ -103,4 +108,10 @@ li {
   border-radius: 4px;
   justify-self: end;
   margin-top: 20px;
+  position: absolute;
+  top: 275px;
+}
+
+.pnCardTrilhasContainer {
+  position: relative;
 }

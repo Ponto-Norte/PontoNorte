@@ -13,13 +13,13 @@ function FooterPontoNorte() {
           <h2>Plataforma</h2>
           <ul>
             <li>
-              <Link to="">Trilhas</Link>
+              <Link to="/Trilhas">Trilhas</Link>
             </li>
             <li>
-              <Link to="">Planos</Link>
+              <Link to="/Plano">Planos</Link>
             </li>
             <li>
-              <Link to="">Guias</Link>
+              <Link to="/Guias">Guias</Link>
             </li>
           </ul>
         </div>
@@ -27,13 +27,13 @@ function FooterPontoNorte() {
           <h2>Ajuda</h2>
           <ul>
             <li>
-              <Link to="">Perguntas Frequentes</Link>
+              <Link to="/PerguntasFrequentes">Perguntas Frequentes</Link>
             </li>
             <li>
-              <Link to="">Termos e Privacidade</Link>
+              <Link to="TermosPrivacidade">Termos e Privacidade</Link>
             </li>
             <li>
-              <Link to="">LGPD</Link>
+              <Link to="/LGPD">LGPD</Link>
             </li>
           </ul>
         </div>
@@ -62,7 +62,10 @@ function FooterPontoNorte() {
 
             <ul className="pnRedesSociais">
               <li>
-                <Link target="blank" to="">
+                <Link
+                  target="blank"
+                  to="https://www.linkedin.com/company/ponto-norte-1/"
+                >
                   <img
                     src="https://img.icons8.com/ios-glyphs/30/FFFFFF/linkedin.png"
                     alt="linkedin"
@@ -71,7 +74,10 @@ function FooterPontoNorte() {
               </li>
 
               <li>
-                <Link target="blank" to="http://instagram.com">
+                <Link
+                  target="blank"
+                  to="https://www.instagram.com/ponto_norte_"
+                >
                   <img
                     src="https://img.icons8.com/material-outlined/50/FFFFFF/instagram-new.png"
                     alt="instagram-new"

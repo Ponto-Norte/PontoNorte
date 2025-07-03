@@ -14,8 +14,15 @@ import lucas from '../../../public/Guias/lucas.jpg';
 import rafael from '../../../public/Guias/rafael.jpg';
 import rodrigo from '../../../public/Guias/rodrigo.jpg';
 import suzana from '../../../public/Guias/suzana.jpg';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function Guias() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Header />

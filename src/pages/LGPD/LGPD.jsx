@@ -1,11 +1,18 @@
 import '../LGPD/LGPD.css';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function LGDPTela() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
-    <Header />
+      <Header />
       <main className="pnLGPD">
         <div className="pnWallpaperLGPD">
           <div className="pnWallpaperLGPDConteudo">
@@ -29,35 +36,29 @@ function LGDPTela() {
             incluir, por exemplo, nome, e-mail, localização e preferências de
             uso — sempre com base no seu consentimento ou em outras bases legais
             previstas pela LGPD.
-            
-            <br/>
-            <br/>
-            
-            Todas as informações fornecidas são tratadas
-            com confidencialidade, armazenadas em ambientes seguros e utilizadas
-            exclusivamente para as finalidades que você autorizou.
-            
-            <br/>
-            <br/>
-            
-            Além disso, oferecemos total transparência sobre como seus dados são utilizados.
-            Você pode, a qualquer momento, exercer seus direitos como titular
-            dos dados, incluindo o acesso às suas informações, solicitação de
-            correção, revogação do consentimento ou até a exclusão dos dados,
-            salvo quando houver necessidade de retenção por exigência legal ou
-            regulatória. Prezamos por uma comunicação clara e respeitosa,
-            garantindo que você tenha controle sobre suas informações a qualquer
-            momento. 
-            
-            <br/>
-            <br/>
-            
-            Se surgir qualquer dúvida sobre nossa Política de
-            Privacidade ou sobre como tratamos seus dados pessoais, nossa equipe
-            está à disposição. Entre em contato com o nosso Encarregado de
-            Proteção de Dados (DPO) pelo e-mail: suporte@pontonorte.com.br.
-            Estamos aqui para garantir uma experiência segura, ética e confiável
-            em todos os seus momentos com a Ponto Norte.
+            <br />
+            <br />
+            Todas as informações fornecidas são tratadas com confidencialidade,
+            armazenadas em ambientes seguros e utilizadas exclusivamente para as
+            finalidades que você autorizou.
+            <br />
+            <br />
+            Além disso, oferecemos total transparência sobre como seus dados são
+            utilizados. Você pode, a qualquer momento, exercer seus direitos
+            como titular dos dados, incluindo o acesso às suas informações,
+            solicitação de correção, revogação do consentimento ou até a
+            exclusão dos dados, salvo quando houver necessidade de retenção por
+            exigência legal ou regulatória. Prezamos por uma comunicação clara e
+            respeitosa, garantindo que você tenha controle sobre suas
+            informações a qualquer momento.
+            <br />
+            <br />
+            Se surgir qualquer dúvida sobre nossa Política de Privacidade ou
+            sobre como tratamos seus dados pessoais, nossa equipe está à
+            disposição. Entre em contato com o nosso Encarregado de Proteção de
+            Dados (DPO) pelo e-mail: suporte@pontonorte.com.br. Estamos aqui
+            para garantir uma experiência segura, ética e confiável em todos os
+            seus momentos com a Ponto Norte.
           </p>
         </section>
       </main>

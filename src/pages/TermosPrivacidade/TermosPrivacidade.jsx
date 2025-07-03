@@ -1,8 +1,15 @@
 import '../TermosPrivacidade/TermosPrivacidade.css';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function TermosPrivacidadeTela() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Header />
@@ -119,11 +126,11 @@ function TermosPrivacidadeTela() {
           <h2>4. Diposições Finais</h2>
           <p>
             • A Ponto Norte pode alterar estes termos a qualquer momento, com
-            aviso prévio por meio da plataforma ou e-mail; 
+            aviso prévio por meio da plataforma ou e-mail;
             <br />
-            • O uso contínuo dos serviços após alterações implica concordância com os novos termos; 
-            <br />
-            • Em caso de dúvidas, entre em contato pelo nosso canal de
+            • O uso contínuo dos serviços após alterações implica concordância
+            com os novos termos;
+            <br />• Em caso de dúvidas, entre em contato pelo nosso canal de
             atendimento: suporte@pontonorte.com.br
           </p>
         </section>

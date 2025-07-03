@@ -1,16 +1,15 @@
 import '../CardTrilha/CardTrilha.css';
-import claro from '../../assets/wallpaper.jpg';
 import { Link } from 'react-router-dom';
 
-function CardTrilha({ titulo, local, texto, distancia, altura }) {
+function CardTrilha({ titulo, local, texto, distancia, altura, imagem }) {
   return (
     <article className="pnCardTrilhasFoto">
-      <img id="pnCardTrilhaFoto" src={claro} alt="" />
+      <img id="pnCardTrilhaFoto" src={imagem} alt="" />
       <section className="pnCardTrilhasContainer">
         <div className="pnCardTrilhasDados">
           <h3>{titulo}</h3>
           <ul className="pnCardTrilhasLocalizacao">
-            <li>{local}</li>
+            <li id="tamanho">{local}</li>
 
             <li id="CardAvaliacao">
               <img

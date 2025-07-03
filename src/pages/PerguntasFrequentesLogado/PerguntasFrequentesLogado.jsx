@@ -2,8 +2,16 @@ import '../PerguntasFrequentesLogado/PerguntasFrequentesLogado.css';
 import Footer from '../../components/Footer/Footer';
 import HeaderLogado from '../../components/HeaderLogado/HeaderLogado';
 import Pergunta from '../../components/PerguntasFrequentesComponente/PerguntasFrequentesComponente';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function PerguntasFrequentesLogadoTela() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <HeaderLogado />
