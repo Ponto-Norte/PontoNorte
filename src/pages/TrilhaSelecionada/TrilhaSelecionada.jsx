@@ -203,7 +203,7 @@ function TrilhaSelecionadaTela() {
           <div className="pnTrilhaTrajetoConteudoContainer">
             <div className="pnTrilhaTrajetoConteudo">
               <div className="pnTrilhaTrajetoTitulo">
-                <h2>Trajeto Riacho Grande</h2>
+                <h2>Trajeto Pico do Mirante</h2>
               </div>
               <div className="pnTrilhaTrajetoMapa">
                 <iframe
